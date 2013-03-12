@@ -1,0 +1,69 @@
+body{
+	background-image: url("img/plantilla.jpg");
+	background-repeat: no-repeat;
+}
+.main{
+	width: 975px;
+	margin: 0 auto;
+}
+.header{
+	background: blue;
+	opacity: 0.6;
+	width: 975px;
+	height: 235px;
+	margin: 0 auto;
+}
+.contenedor_crono{
+	background: red;
+	opacity: 0.6;
+	width: 535px;
+	height: 80px;
+	position: relative;
+	left: 450px;
+}
+.barra{
+	background: yellow;
+	opacity: 0.6;
+	width: 100%;
+	height: 60px;
+}
+
+.home_slide{
+	background: green;
+	opacity: 0.6;
+	width: 975px;
+	height: 300px;
+}
+.home{
+	width:975px;
+	height: 1649px;
+}
+.home_content{
+	background: blue;
+	opacity: 0.6;
+	width:610px;
+	height: 1649px;
+	position: relative;
+	float: left;
+}
+.home_sidebar{
+	background: red;
+	opacity: 0.6;
+	width: 365px;
+	height: 1000px;
+	position: relative;
+	float: left;
+}
+
+.footer{
+	background: green;
+	opacity: 0.6;
+	width: 100%;
+	height: 210px;
+}
+.bandera{
+	background: yellow;
+	opacity: 0.6;
+	width: 100%;
+	height: 40px;
+}
