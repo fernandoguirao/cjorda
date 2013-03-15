@@ -1,10 +1,13 @@
 <?php get_header(); ?>
-	<div class="home_slide">
-	</div>
-	<div class="home">
-		<div class="home_content">
-		</div>
-		<div class="home_sidebar">
+	<?php get_carrousel();?>
+	<div class="container-fluid">
+		<div class="row-fluid no-space">
+			<div class="span8" id="home_content">
+				<!--Body content-->
+			</div>
+			<div class="span4" id="sidebar">
+				<!--Sidebar content-->
+			</div>
 		</div>
 	</div>
 <?php get_footer(); ?>
