@@ -11,7 +11,8 @@ function estilos(){
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap-responsive.min.css">
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/carousel.css">
-
+    	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/crono.css">
+    	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/barra_navegacion.css">
     	
     <?php
 }
@@ -22,7 +23,11 @@ function javascripts(){
 		<script src="<?php bloginfo('template_url');?>/js/bootstrap.min.js"></script>
 	<?php
 }
-function get_carrousel(){
-	require 'carrousel.php';
+function get_carousel(){
+	require 'carousel.php';
+}
+
+function get_barra_nav(){
+	require 'barra_navegacion.php';
 }
 ?>

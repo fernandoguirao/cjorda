@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	<?php get_carrousel();?>
+	<?php get_carousel();?>
 	<div class="container-fluid">
 		<div class="row-fluid no-space">
 			<div class="span8" id="home_content">

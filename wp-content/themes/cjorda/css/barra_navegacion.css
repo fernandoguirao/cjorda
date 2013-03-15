@@ -1,0 +1,12 @@
+.minibarra{
+	background-image: url("../img/minibarra.png");
+	width: 100%;
+	height: 6px;
+	background-repeat: repeat-x;
+}
+.barra{
+	background: url("../img/barra.png");
+	width: 100%;
+	height: 54px;
+	background-repeat: repeat-x;
+}

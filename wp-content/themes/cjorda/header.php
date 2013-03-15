@@ -20,8 +20,7 @@
 			<div class="contenedor_crono">
 			</div>
 		</div>
-		<div class="barra">
-		</div>
+		<?php get_barra_nav();?>
 	</header>
 	<body>
 		<div class="container">

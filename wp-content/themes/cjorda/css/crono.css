@@ -1,0 +1,8 @@
+
+.contenedor_crono{
+	background-image: url("../img/crono.png");
+	width: 545px;
+	height: 80px;
+	float: right;
+	margin-right: -15px;
+}
