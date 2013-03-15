@@ -1,0 +1,44 @@
+.boton_slide{
+	height: 20px;
+	width: 20px;
+}
+
+.boton_carousel{
+	float: left;
+	padding: 2px;
+}
+.carousel-indicators{
+	margin-right:-10px;
+	top:265px;
+}
+
+.titular_slide{
+	background: #0e76bc;
+	color:white;
+	float: left;
+	position: absolute;
+	left:30px;
+	top:60px;
+	max-width: 250px;
+}
+
+.lbl_leer_mas{
+	float: left;
+	background: black;
+	color: white;
+	height: 23px;
+	width: 58px;
+}
+.lbl_plus{
+	float:left;
+	background: #0e76bc;
+	color: white;
+	height: 23px;
+	width: 22px;
+	
+}
+.btn_leer_mas{
+	position: absolute;
+	left:30px;
+	top:200px;
+}

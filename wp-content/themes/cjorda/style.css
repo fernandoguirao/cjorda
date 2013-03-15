@@ -24,9 +24,6 @@ body{
 }
 
 .home_slide{
-	background: green;
-	opacity: 0.6;
-	height: 300px;
 	max-height: 300px;
 }
 

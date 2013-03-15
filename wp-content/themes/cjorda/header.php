@@ -9,12 +9,9 @@
 <html>
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
-		
-		<?php estilos();?>
 		<?php javascripts();?>
-
+		<?php estilos();?>
 		<title><?php wp_title( '|', true, 'right' ); ?></title>
-		
 		<?php wp_head(); ?>
 
 	</head>

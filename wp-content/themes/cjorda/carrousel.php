@@ -1,34 +1,66 @@
+<script src="<?php bloginfo('template_url');?>/js/carrousel.js"></script>
 
 
-<div id="myCarousel" class="carousel slide">
-	<ol class="carousel-indicators">
-		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		<li data-target="#myCarousel" data-slide-to="1" class=""></li>
-		<li data-target="#myCarousel" data-slide-to="2" class=""></li>
-	</ol>
+<div id="myCarousel" class="carousel slide home_slide">
+	<div class="carousel-indicators">
+		<a class="boton_carousel" href="#myCarousel" data-slide-to="0">
+	    	<div class="boton_slide" style="background:#ffffff;">
+	    	</div>
+	    </a>
+		<a class="boton_carousel" href="#myCarousel" data-slide-to="1">
+	    	<div class="boton_slide" style="background:#85bee6;">
+	    	</div>
+	    </a>
+		<a class="boton_carousel" href="#myCarousel" data-slide-to="2">
+	    	<div class="boton_slide" style="background:#5790b8;">
+	    	</div>
+	    </a>
+	    <a class="boton_carousel" href="#myCarousel" data-slide-to="3">
+	    	<div class="boton_slide" style="background:#3a739c;">
+	    	</div>
+	    </a>
+    </div>
     <div class="carousel-inner">
     	<div class="item active">
-        	<img src="http://twitter.github.com/bootstrap/assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
-        	<div class="carousel-caption">
-	        	<h4>First Thumbnail label</h4>
-	        	<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-	        </div>
+        	<img src="<?php bloginfo("template_url");?>/img/slide.png" alt="">
+        	<h1 class="titular_slide">
+        		TITULAR DE CARMEN AQUI.
+        	</h1>
+        	<a href="" class="btn_leer_mas">
+	        	<div class="lbl_leer_mas">leer</div>
+	        	<div class="lbl_plus">+</div>
+        	</a>
 	    </div>
 	    <div class="item">
-        	<img src="http://twitter.github.com/bootstrap/assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
-        	<div class="carousel-caption">
-	        	<h4>Second Thumbnail label</h4>
-	        	<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-	        </div>
+        	<img src="http://lorempixel.com/975/300/" alt="">
+        	<h1 class="titular_slide">
+        		SEGUNDO TITULAR.
+        	</h1>
+        	<a href="" class="btn_leer_mas">
+	        	<div class="lbl_leer_mas">LEER MÁS</div>
+	        	<div class="lbl_plus">+</div>
+        	</a>
 	    </div>
 	    <div class="item">
-        	<img src="http://twitter.github.com/bootstrap/assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
-        	<div class="carousel-caption">
-	        	<h4>Third Thumbnail label</h4>
-	        	<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-	        </div>
+        	<img src="http://lorempixel.com/975/301/" alt="">
+        	<h1 class="titular_slide">
+        		TERCER TITULAR
+           	</h1>
+           	<a href="" class="btn_leer_mas">
+	        	<div class="lbl_leer_mas">LEER MÁS</div>
+	        	<div class="lbl_plus">+</div>
+        	</a>
+	    </div>
+	    <div class="item">
+        	<img src="http://lorempixel.com/975/302/" alt="">
+        	<h1 class="titular_slide">
+        		CUARTO TITULAR
+           	</h1>
+           	<a href="" class="btn_leer_mas">
+	        	<div class="lbl_leer_mas">LEER MÁS</div>
+	        	<div class="lbl_plus">+</div>
+        	</a>
 	    </div>
 	</div>
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+	
 </div>
