@@ -13,7 +13,8 @@ function estilos(){
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/carousel.css">
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/crono.css">
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/barra_navegacion.css">
-    	
+    	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/noticias_box.css">
+
     <?php
 }
 
@@ -29,5 +30,8 @@ function get_carousel(){
 
 function get_barra_nav(){
 	require 'barra_navegacion.php';
+}
+function get_noticias_box(){
+	require 'noticias_box.php';
 }
 ?>
