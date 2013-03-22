@@ -34,3 +34,7 @@
 	background-repeat: repeat-x;
 	color: #ffffff;
 }
+
+.btn_barra p{
+	font-size: 15px;
+}

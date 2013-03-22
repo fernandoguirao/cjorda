@@ -24,10 +24,10 @@
     	<div class="item active" >
         	<img src="http://lorempixel.com/975/300/" alt="">
         	<h1 class="titular_slide">
-        		TITULAR DE CARMEN AQUI.
+        		TITULAR DE <b>CARMEN</b> AQUI.
         	</h1>
         	<a href="" class="btn_leer_mas">
-	        	<div class="lbl_leer_mas">leer</div>
+	        	<div class="lbl_leer_mas">LEER MÁS</div>
 	        	<div class="lbl_plus">+</div>
         	</a>
 	    </div>

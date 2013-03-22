@@ -7,6 +7,7 @@
 
 function estilos(){
     ?>
+    	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/fonts/fonts.css">
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css">
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap-responsive.min.css">
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
@@ -14,7 +15,7 @@ function estilos(){
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/crono.css">
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/barra_navegacion.css">
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/noticias_box.css">
-
+    	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/barra_derecha.css">
     <?php
 }
 
@@ -34,4 +35,9 @@ function get_barra_nav(){
 function get_noticias_box(){
 	require 'noticias_box.php';
 }
+
+function get_barraderecha(){
+	require 'barra_derecha.php';
+}
+
 ?>

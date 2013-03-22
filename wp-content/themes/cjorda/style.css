@@ -1,3 +1,13 @@
+h1, p{
+	font-family: 'klavikalight';
+	font-weight: normal;
+}
+h1 b, p b{
+	color: black;
+	font-weight: normal;
+}
+
+
 body{
 	/*background-image: url("img/plantilla.jpg");
 	background-repeat: no-repeat;*/
@@ -8,20 +18,44 @@ body{
 	height: 235px;
 }
 
-#home_content{
-	background: blue;
-	height: 1647px;
-}
-#sidebar{
-	background: red;
-	opacity: 0.6;
-	height: 700px;
-}
+
+
 
 .footer{
 	background-image: url("img/fondo_footer.png");
 	width: 100%;
 	height: 210px;
+}
+
+.noticia{
+	background-color: white;
+}
+
+.fecha_noticia{
+	color: #3a739c;
+	font-size: 15px;
+}
+.titulo_noticia{
+	color: #3a739c;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.btn_compartir{
+	color: #ffffff;
+	background-color: #3a739c; 
+	/*width: 40%;
+	height: 30px;*/
+	text-align: center;
+	margin-left: 0!important;
+
+}
+.btn_seguir{
+	color: #3a739c;
+	background-color: #85bee6; 
+	/*width: 40%;
+	height: 30px;*/
+	text-align: center;
 }
 
 .no-space { /*apply to the row */
@@ -45,4 +79,8 @@ body{
 	width: 100%;
 	height: 6px;
 	background-repeat: repeat-x;
+}
+.container_botones{
+	padding-left: 16%;
+	height: 45px;
 }

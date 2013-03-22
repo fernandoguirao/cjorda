@@ -1,0 +1,35 @@
+.noticia_destacada{
+	background-image: url("../img/barradestacado.png");
+	height: 90px;
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+.buscador{
+	width: 100%;
+	height: 90px;
+	color: blue;
+	font-size: 20px;
+	text-align: center;
+	background-color: white;
+}
+.inp_buscar{
+	/*float: left;*/
+	margin: 0 auto;
+	height: 25px!important;
+	margin-top: 60 auto;
+}
+
+.entrada_derecha{
+	background-color: #f2f2f2;
+	height: 90px;
+	width: 100%;
+}
+.contenedor_icono{
+	float: left;
+	width: 44px;
+	height: 44px;
+	background-color: #0e76bc;
+}

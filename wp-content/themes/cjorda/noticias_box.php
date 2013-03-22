@@ -18,4 +18,3 @@
 		<p>Encabezado de noticia</p>
 	</div>
 </div>
-<div class="minibarra"></div>
