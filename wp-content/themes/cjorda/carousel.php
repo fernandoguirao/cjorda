@@ -1,6 +1,5 @@
 <script src="<?php bloginfo('template_url');?>/js/carrousel.js"></script>
 
-
 <div id="myCarousel" class="carousel slide" style="max-heigh=300px; margin-bottom:0px;">
 	<div class="carousel-indicators">
 		<a class="boton_carousel" href="#myCarousel" data-slide-to="0">

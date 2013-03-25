@@ -66,8 +66,6 @@ $events = eo_get_events(array(
 			intermitente=true;
 		}
 	}
-	$(document).ready(function($){
-		crono();
-	});
+	
 
 </script>

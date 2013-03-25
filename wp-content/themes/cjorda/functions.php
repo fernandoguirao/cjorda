@@ -23,6 +23,8 @@ function javascripts(){
 	?>
 		<script src="<?php bloginfo('template_url');?>/js/jquery-1.9.1.min.js"></script>
 		<script src="<?php bloginfo('template_url');?>/js/bootstrap.min.js"></script>
+		<script src="<?php bloginfo('template_url');?>/js/main.js"></script>
+
 	<?php
 }
 function get_carousel(){
