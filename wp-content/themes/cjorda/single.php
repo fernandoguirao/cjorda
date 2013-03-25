@@ -4,8 +4,6 @@
 		<div class="minibarra"></div>
 		<div class="row-fluid no-space">
 			<div class="span8" id="home_content">
-				<?php get_noticias_box();?>
-
 				
 				<?php while ( have_posts() ) : the_post(); ?>
 					<div class="noticia">
