@@ -40,4 +40,7 @@ function get_barraderecha(){
 	require 'barra_derecha.php';
 }
 
+function get_crono(){
+	require 'crono.php';
+}
 ?>

@@ -17,8 +17,7 @@
 	</head>
 	<header>
 		<div class="container" id="header">
-			<div class="contenedor_crono">
-			</div>
+			<?php get_crono();?>
 		</div>
 		<?php get_barra_nav();?>
 	</header>
