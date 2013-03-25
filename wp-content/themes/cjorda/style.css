@@ -84,3 +84,31 @@ body{
 	padding-left: 16%;
 	height: 45px;
 }
+
+.cr_digito{
+	color: white;
+	font-family: 'digital-7regular';
+	float: left;
+
+}
+#cr_titulo{
+	margin-left: 235px;
+	max-width: 70px;
+	margin-top: 18px;
+	font-size: 10px;
+}
+.cr_reloj{
+	min-width: 40px;
+	min-height: 40px;
+	font-size: 40px;
+	text-align: right;
+	margin-top: 25px;
+	margin-right: 7px;
+}
+.cr_puntos{
+	font-size: 50px;
+	margin-top: 25px;
+}
+#cr_dias{
+	margin-left: 5px;
+}
