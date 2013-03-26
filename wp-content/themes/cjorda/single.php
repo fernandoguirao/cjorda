@@ -14,9 +14,12 @@
 						<div style=""><?php the_content();?></div>
 						<div class="container-fluid container_botones">
 							<div class="row-fluid">
-								<div class="span5 btn_compartir ">Compartir</div>
+								<div class="span5 btn_compartir" style="margin: 0 auto;">Compartir</div>
 							</div>
 						</div>
+					</div>
+					<div class="comentarios">
+						<?php disqus_embed('carmenjorda'); ?>
 					</div>
 				<?php endwhile; ?>
 				<?php previous_post_link(); ?>
