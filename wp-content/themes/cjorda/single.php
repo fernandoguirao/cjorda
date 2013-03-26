@@ -18,8 +18,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="comentarios">
-						<?php disqus_embed('carmenjorda'); ?>
+					<div class="comentarios patata">
+						<?php comments_template( '', true ); ?>
+
 					</div>
 				<?php endwhile; ?>
 				<?php previous_post_link(); ?>
