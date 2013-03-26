@@ -46,5 +46,42 @@ function get_crono(){
 	require 'crono.php';
 }
 
+function mandar_email(){
+	$invalido=0;
+	$cadena="";
+	if(isset($_POST["mandado"])){
+		if($_POST["acepta"]!="Yes"){
+			$cadena.="Tienes que aceptar nuestra patata política de confidencialidad<br>";
+			$invalido=1;
+		}
+		if($_POST["nombre"]==""){
+			$cadena.="Tienes que introducir tu nombre<br>";
+			$invalido=1;
+		}
+		if($_POST["email"]==""){
+			$cadena.="Tienes que introducir tu email<br>";
+			$invalido=1;
+		}
+		if($_POST["asunto"]==""){
+			$cadena.="Tienes que introducir un asunto<br>";
+			$invalido=1;
+		}
+		if($_POST["contenido"]==""){
+			$cadena.="Tienes que introducir el contenido<br>";
+			$invalido=1;
+		}
+		if($invalido==0){
+			$cuerpo="";
+			$cuerpo.="Nombre: ".$_POST["nombre"]."\n";
+			$cuerpo.="Email: ".$_POST["email"]."\n";
+			$cuerpo.="Mensaje: ".$_POST["contenido"]."\n";
+			if(mail(get_option('admin_email'),$_POST["asunto"],$cuerpo))
+				$cadena="Email mandado<br>";
+			else
+				$cadena="Ha ocurrido un error, intentalo de nuevo más tarde<br>";
+		}
+		echo $cadena;
+	}
+}
 
 ?>

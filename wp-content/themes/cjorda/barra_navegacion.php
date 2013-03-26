@@ -6,7 +6,7 @@
 		<a href="<?php bloginfo("url");?>/galeria"><div class="btn_barra"><p>GALERIA</p></div></a>
 		<div class="btn_barra"><p>CIRCUITOS</p></div>
 		<div class="btn_barra"><p>ABOUT ME</p></div>
-		<div class="btn_barra"><p>CONTACTO</p></div>
+		<a href="<?php bloginfo("url");?>/contacto"><div class="btn_barra"><p>CONTACTO</p></div></a>
 		<div class="btn_barra"><p>PARTNERS</p></div>
 		<div class="btn_barra"><p>REDES</p></div>
 	</div>
