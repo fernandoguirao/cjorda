@@ -15,6 +15,7 @@ body{
 }
 #header{
 	background-image: url("img/fondo_header.png");
+	background-size: 100% auto;
 	height: 235px;
 }
 

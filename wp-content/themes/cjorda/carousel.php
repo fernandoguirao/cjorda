@@ -22,44 +22,91 @@
     <div class="carousel-inner">
     	<div class="item active" >
         	<img src="http://lorempixel.com/975/300/" alt="">
-        	<h1 class="titular_slide">
-        		TITULAR DE <b>CARMEN</b> AQUI.
-        	</h1>
-        	<a href="" class="btn_leer_mas">
-	        	<div class="lbl_leer_mas">LEER MÁS</div>
-	        	<div class="lbl_plus">+</div>
-        	</a>
+        	<div class="contenedor_titular">
+	        	<h1 class="titular_slide">
+	        		<span>
+	        			TITULAR DE <b>CARMEN</b> AQUI.
+	        		</span>
+	        	</h1>
+	        	<a href="" class="btn_leer_mas">
+		        	<div class="lbl_leer_mas">
+		        		<span>
+		        			LEER MÁS
+		        		</span>
+		        	</div>
+		        	<div class="lbl_plus">
+		        		<span>
+		        			+
+		        		</span>
+		        	</div>
+	        	</a>
+        	</div>
 	    </div>
-	    <div class="item">
+    	<div class="item" >
         	<img src="http://lorempixel.com/975/300/" alt="">
-        	<h1 class="titular_slide">
-        		SEGUNDO TITULAR.
-        	</h1>
-        	<a href="" class="btn_leer_mas">
-	        	<div class="lbl_leer_mas">LEER MÁS</div>
-	        	<div class="lbl_plus">+</div>
-        	</a>
+        	<div class="contenedor_titular">
+	        	<h1 class="titular_slide">
+	        		<span>
+	        			TITULAR DE <b>CARMEN</b> AQUI.
+	        		</span>
+	        	</h1>
+	        	<a href="" class="btn_leer_mas">
+		        	<div class="lbl_leer_mas">
+		        		<span>
+		        			LEER MÁS
+		        		</span>
+		        	</div>
+		        	<div class="lbl_plus">
+		        		<span>
+		        			+
+		        		</span>
+		        	</div>
+	        	</a>
+        	</div>
 	    </div>
-	    <div class="item">
+    	<div class="item" >
         	<img src="http://lorempixel.com/975/300/" alt="">
-        	<h1 class="titular_slide">
-        		TERCER TITULAR
-           	</h1>
-           	<a href="" class="btn_leer_mas">
-	        	<div class="lbl_leer_mas">LEER MÁS</div>
-	        	<div class="lbl_plus">+</div>
-        	</a>
+        	<div class="contenedor_titular">
+	        	<h1 class="titular_slide">
+	        		<span>
+	        			TITULAR DE <b>CARMEN</b> AQUI.
+	        		</span>
+	        	</h1>
+	        	<a href="" class="btn_leer_mas">
+		        	<div class="lbl_leer_mas">
+		        		<span>
+		        			LEER MÁS
+		        		</span>
+		        	</div>
+		        	<div class="lbl_plus">
+		        		<span>
+		        			+
+		        		</span>
+		        	</div>
+	        	</a>
+        	</div>
 	    </div>
-	    <div class="item">
+    	<div class="item" >
         	<img src="http://lorempixel.com/975/300/" alt="">
-        	<h1 class="titular_slide">
-        		CUARTO TITULAR
-           	</h1>
-           	<a href="" class="btn_leer_mas">
-	        	<div class="lbl_leer_mas">LEER MÁS</div>
-	        	<div class="lbl_plus">+</div>
-        	</a>
+        	<div class="contenedor_titular">
+	        	<h1 class="titular_slide">
+	        		<span>
+	        			TITULAR DE <b>CARMEN</b> AQUI.
+	        		</span>
+	        	</h1>
+	        	<a href="" class="btn_leer_mas">
+		        	<div class="lbl_leer_mas">
+		        		<span>
+		        			LEER MÁS
+		        		</span>
+		        	</div>
+		        	<div class="lbl_plus">
+		        		<span>
+		        			+
+		        		</span>
+		        	</div>
+	        	</a>
+        	</div>
 	    </div>
-	</div>
 	
 </div>

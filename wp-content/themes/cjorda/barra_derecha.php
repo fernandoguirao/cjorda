@@ -5,7 +5,7 @@
 		</p>
 	</div>
 	<div class="buscador">
-		<input type="text" value="BUSCAR" class="inp_buscar">
+		<input type="text" value="BUSCAR..." class="inp_buscar">
 		<img src="<?php bloginfo("template_url");?>/img/lupa.png">
 	</div>
 	<div class="entrada_derecha">
