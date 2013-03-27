@@ -14,7 +14,7 @@
 						<div style=""><?php the_content();?></div>
 						<div class="container-fluid container_botones">
 							<div class="row-fluid">
-								<div class="span5 btn_compartir" style="margin: 0 auto;">Compartir</div>
+								<?php compartir();?>
 							</div>
 						</div>
 					</div>

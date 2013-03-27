@@ -23,7 +23,6 @@ get_header(); ?>
 							<div class="fecha_noticia"><?php the_date('d \D\E\ F \D\E\ Y', '<p style="text-transform: uppercase">', '</p>'); ?></div>
 							<div class="titulo_noticia"><p><?php the_title();?></p></div>
 							<div class="cuerpo_entrada"><?php the_excerpt();?></div>
-							<div style="display: none;"><?php the_content();?></div>
 							<div class="container-fluid container_botones">
 								<div class="row-fluid">
 									<a class="read-more" href="<?php the_permalink();?>">
@@ -40,9 +39,7 @@ get_header(); ?>
 										</div>
 										<div class="ico-twit">
 										</div>
-										<span>
-											Compartir
-										</span>
+										<?php compartir();?>
 									</div>
 								</div>
 							</div>
