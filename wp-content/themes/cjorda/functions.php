@@ -10,13 +10,13 @@ function estilos(){
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/fonts/fonts.css">
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css">
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap-responsive.min.css">
-    	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
-    	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/carousel.css">
-    	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/crono.css">
-    	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/barra_navegacion.css">
-    	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/noticias_box.css">
-    	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/barra_derecha.css">
-    	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/responsivo.css">
+    	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/style.less">
+    	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/carousel.less">
+    	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/crono.less">
+    	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/barra_navegacion.less">
+    	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/noticias_box.less">
+    	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/barra_derecha.less">
+    	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/responsivo.less">
     <?php
 }
 
@@ -24,6 +24,7 @@ function javascripts(){
 	?>
 		<script src="<?php bloginfo('template_url');?>/js/jquery-1.9.1.min.js"></script>
 		<script src="<?php bloginfo('template_url');?>/js/bootstrap.min.js"></script>
+		<script src="<?php bloginfo('template_url');?>/js/less.js"></script>
 		<script src="<?php bloginfo('template_url');?>/js/main.js"></script>
 
 	<?php
