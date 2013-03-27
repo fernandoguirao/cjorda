@@ -2,7 +2,9 @@
 .barra{
 	background: url("../img/barra.png");
 	height: 61px;
-	width: 100%;
+	position:relative;
+	width:100%;
+	z-index:2;
 	background-position: 0px -1px;
 }
 
