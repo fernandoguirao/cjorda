@@ -1,3 +1,34 @@
+/* @color:#d6003e; */
+
+/* DEFINICIONES LESS */
+
+.transition (@transition: all .5s ease-in-out) {
+-webkit-transition: @transition;
+-moz-transition: @transition;
+-o-transition: @transition;
+transition: @transition;
+}
+
+.rounded-corners {  
+  -moz-border-radius: 10px; /* Firefox */  
+  -webkit-border-radius: 10px; /* Safari, Chrome */  
+  border-radius: 10px; /* CSS3 */  
+}  
+
+/* TRANSPARENCIA */
+.opacity (@trans: 0.5) {
+	@trans1:@trans * 10;
+	-moz-opacity:@trans;
+	opacity:@trans;
+	-khtml-opacity: @trans;
+	filter:alpha(opacity=@trans1);
+}
+
+
+.entrada_derecha{
+.transition(all .3s linear);
+}
+
 #sidebar {
 	background-color:#F2F2F2;
 }

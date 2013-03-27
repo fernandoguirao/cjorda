@@ -1,3 +1,35 @@
+/* @color:#d6003e; */
+
+/* DEFINICIONES LESS */
+
+.transition (@transition: all .5s ease-in-out) {
+-webkit-transition: @transition;
+-moz-transition: @transition;
+-o-transition: @transition;
+transition: @transition;
+}
+
+.rounded-corners {  
+  -moz-border-radius: 10px; /* Firefox */  
+  -webkit-border-radius: 10px; /* Safari, Chrome */  
+  border-radius: 10px; /* CSS3 */  
+}  
+
+/* TRANSPARENCIA */
+.opacity (@trans: 0.5) {
+	@trans1:@trans * 10;
+	-moz-opacity:@trans;
+	opacity:@trans;
+	-khtml-opacity: @trans;
+	filter:alpha(opacity=@trans1);
+}
+
+
+.btn_barra{
+.transition(all .3s linear);
+}
+
+/* FIN DE DEFINICIONES */
 
 .barra{
 	background: url("../img/barra.png");
@@ -15,7 +47,7 @@
 }
 
 .btn_barra{
-	color: #B4D6EE;
+	color: #ffffff;
 	float: left;
 	height: 36px;
 	margin-left: 2px;
@@ -25,12 +57,14 @@
 	text-align: center;
 	vertical-align: middle;
 	width: 12%;
+	background-size: 100% auto;
+	.opacity(0.6);
 }
 .btn_barra:hover{
 	color: #ffffff;
 	background-image: url("../img/btn_activo.png");
 	background-size: 100% auto;
-
+	.opacity(1);
 }
 .btn_activo{
 	background-image: url("../img/btn_activo.png");
@@ -51,4 +85,15 @@
 .btn_barra.activeb p {
   font-family: klavika;
   color: white;
+}
+
+.btn_barra.activeb {
+  font-family: klavika;
+  color: white;
+  .opacity(1);
+  cursor:default;
+}
+
+.btn_barra.activeb:hover {
+	background-image:none;
 }
