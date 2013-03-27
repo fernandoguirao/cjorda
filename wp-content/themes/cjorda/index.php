@@ -26,7 +26,7 @@
 							<div style="display: none;"><?php the_content();?></div>
 							<div class="container-fluid container_botones">
 								<div class="row-fluid">
-									<a class="read-more" href="?p=<?php echo get_the_ID();?>">
+									<a class="read-more" href="<?php the_permalink();?>">
 										<div class="span5 btn_seguir">
 											<div class="ico-seguir">
 											</div>

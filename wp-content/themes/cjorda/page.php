@@ -4,6 +4,7 @@ Template Name: page
 */
 ?>
 <?php get_header(); ?>
+<?php get_carousel();?>
 	<div class="container-fluid">
 		<div class="minibarra"></div>
 		<div class="row-fluid no-space">
