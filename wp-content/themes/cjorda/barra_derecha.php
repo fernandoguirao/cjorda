@@ -1,4 +1,9 @@
 <div class="span4 hidden-phone" id="sidebar">
+<div class="buscador">
+		
+		<?php get_buscador(); ?>
+
+	</div>
 <?php
 	$args = array(
 		'tag'      => 'favorita',
@@ -16,11 +21,7 @@
 	<?php endwhile;?>
 	<?php wp_reset_query(); ?>
 
-	<div class="buscador">
-		
-		<?php get_buscador(); ?>
-
-	</div>
+	
 	
 	<?php
 		include_once(ABSPATH . WPINC . '/feed.php');

@@ -2,7 +2,7 @@
 $events = eo_get_events(array( 
        'numberposts'=>1, 
        'events_start_after'=>'today', 
-       'showpastevents'=>true,//Will be deprecated, but set it to true to play it safe. 
+       'showpastevents'=>false,//Will be deprecated, but set it to true to play it safe. 
   ));
   
 ?>
@@ -27,7 +27,6 @@ $events = eo_get_events(array(
 			<div class="cr_digito cr_reloj" id="cr_segundos">0</div>
 		</div>
 	<?php endforeach;?>
-<?php endif;?>
 
 <script type="text/javascript">
 	var fecha_evento=new Date(<?php echo $anyo_evento;?>, <?php echo $mes_evento-1;?>, <?php echo $dia_evento;?>, <?php echo $hora_evento;?>, <?php echo $minuto_evento;?>, 0, 0);
@@ -35,6 +34,7 @@ $events = eo_get_events(array(
 	function crono(){
 		var hoy=new Date();
 		var diferencia=(fecha_evento.getTime()-hoy.getTime())/1000;
+		if(diferencia>0){
 		dias=Math.floor(diferencia/86400);
 		$("#cr_dias").html(dias);
 		diferencia=diferencia-(86400*dias);
@@ -65,8 +65,10 @@ $events = eo_get_events(array(
 			$(".cr_puntos").css("opacity", 1);
 			intermitente=true;
 		}
+		}
 	}
 	
+<?php endif;?>
 
 </script>
 		<div id="contenedor_sombras" class="container">

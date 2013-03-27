@@ -9,7 +9,7 @@ Template Name: contacto
 		<div class="row-fluid no-space columnaizda">
 			<div class="span8" id="home_content">
 				<div class="estado_mail">
-				<?php mandar_email();?>
+					<?php mandar_email();?>
 				</div>
 				<form class="form-horizontal" method="post">
 					<div class="control-group">

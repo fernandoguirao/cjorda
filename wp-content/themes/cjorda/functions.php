@@ -109,7 +109,7 @@ function compartir(){
 		<div class="ico-face">
 		</div>
 		</a>
-		<a href="https://twitter.com/share?url=<?php echo the_permalink();?>&text=<?php echo the_permalink();?> <?php the_title();?>&via=CarmenJorda&lang=es">
+		<a href="https://twitter.com/share?url=<?php echo the_permalink();?>&text=<?php echo the_permalink();?> <?php the_title();?>&via=CarmenJorda&lang=es" target="_blank">
 			<div class="ico-twit">
 			</div>
 		</a>
