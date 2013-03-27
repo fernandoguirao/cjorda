@@ -16,6 +16,7 @@ function estilos(){
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/barra_navegacion.less">
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/noticias_box.less">
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/barra_derecha.less">
+    	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/paginas.less">
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/responsivo.less">
     <?php
 }
