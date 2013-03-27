@@ -1,6 +1,6 @@
-$('.carousel').carousel({  
-  interval: 2000 // in milliseconds  
-})  
+$('.carousel').carousel({
+  interval: 6000
+})
 $(document).ready(function($){
 		crono();
 		$('.carousel').carousel('cycle');  
