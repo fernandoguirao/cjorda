@@ -6,7 +6,7 @@ Template Name: contacto
 <?php get_header(); ?>
 	<div class="container-fluid">
 		<div class="minibarra"></div>
-		<div class="row-fluid no-space">
+		<div class="row-fluid no-space columnaizda">
 			<div class="span8" id="home_content">
 				<div class="estado_mail">
 				<?php mandar_email();?>
