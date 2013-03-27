@@ -9,7 +9,6 @@ Template Name: circuitos
 		<div class="minibarra"></div>
 		<div class="row-fluid no-space columnaizda">
 			<div class="span8" id="home_content">
-				<?php get_noticias_box();?>
 				<?php
 					$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 					$args = array(
