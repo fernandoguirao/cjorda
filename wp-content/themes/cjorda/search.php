@@ -8,22 +8,13 @@
  */
 
 get_header(); ?>
+
 	<?php get_carousel();?>
 	<div class="container-fluid bordesuperior">
 		<div class="minibarra"></div>
 		<div class="row-fluid no-space columnaizda">
 			<div class="span8" id="home_content">
-				<?php get_noticias_box();?>
-				<?php
-					$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-					$args = array(
-						'category_name'=>'noticias',
-					  'posts_per_page' => 7,
-					  'paged' => $paged
-  					);
-					query_posts($args); 
-				?>
-				
+				<?php if(have_posts()):?>
 				<?php while ( have_posts() ) : the_post(); ?>
 					<div class="noticia">
 						<div class="minibarra"></div>
@@ -59,6 +50,13 @@ get_header(); ?>
 						
 					</div>
 				<?php endwhile; ?>
+				¿Desea realizar otra busqueda?
+				<?php get_buscador();?>
+				<?php else:?>
+					No hay resultados
+					¿Desea realizar otra busqueda?
+				<?php get_buscador();?>
+				<?php endif;?>
 				<div class="paginacion">
 					<?php previous_posts_link(); ?>
 					<span class="posterior">
@@ -69,7 +67,6 @@ get_header(); ?>
 			<?php get_barraderecha();?>
 		</div>
 	</div>
-
 <?php get_footer(); ?>
 
 
