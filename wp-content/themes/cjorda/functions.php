@@ -29,9 +29,11 @@ function javascripts(){
 	<?php
 }
 function get_carousel(){
-	require 'carousel.php';
+	if(is_home())
+		require 'carousel.php';
+	else
+		require 'banner.php';
 }
-
 function get_barra_nav(){
 	require 'barra_navegacion.php';
 }
