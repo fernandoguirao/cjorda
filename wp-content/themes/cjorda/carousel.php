@@ -47,10 +47,10 @@
         	<div class="contenedor_titular">
 	        	<h1 class="titular_slide">
 	        		<span>
-	        			TITULAR DE <b>CARMEN</b> AQUI.
+	        			<?php echo $titulo_slide[0];?>
 	        		</span>
 	        	</h1>
-	        	<a href="" class="btn_leer_mas">
+	        	<a href="<?php echo $link_slide[0];?>" class="btn_leer_mas">
 		        	<div class="lbl_leer_mas">
 		        		<span>
 		        			LEER MÁS
@@ -69,10 +69,10 @@
         	<div class="contenedor_titular">
 	        	<h1 class="titular_slide">
 	        		<span>
-	        			TITULAR DE <b>CARMEN</b> AQUI.
+	        			<?php echo $titulo_slide[1];?>
 	        		</span>
 	        	</h1>
-	        	<a href="" class="btn_leer_mas">
+	        	<a href="<?php echo $link_slide[1];?>" class="btn_leer_mas">
 		        	<div class="lbl_leer_mas">
 		        		<span>
 		        			LEER MÁS
@@ -91,10 +91,10 @@
         	<div class="contenedor_titular">
 	        	<h1 class="titular_slide">
 	        		<span>
-	        			TITULAR DE <b>CARMEN</b> AQUI.
+	        			<?php echo $titulo_slide[2];?>
 	        		</span>
 	        	</h1>
-	        	<a href="" class="btn_leer_mas">
+	        	<a href="<?php echo $link_slide[2];?>" class="btn_leer_mas">
 		        	<div class="lbl_leer_mas">
 		        		<span>
 		        			LEER MÁS
@@ -113,10 +113,10 @@
         	<div class="contenedor_titular">
 	        	<h1 class="titular_slide">
 	        		<span>
-	        			TITULAR DE <b>CARMEN</b> AQUI.
+	        			<?php echo $titulo_slide[3];?>
 	        		</span>
 	        	</h1>
-	        	<a href="" class="btn_leer_mas">
+	        	<a href="<?php echo $link_slide[3];?>" class="btn_leer_mas">
 		        	<div class="lbl_leer_mas">
 		        		<span>
 		        			LEER MÁS
