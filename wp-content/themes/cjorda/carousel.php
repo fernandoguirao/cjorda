@@ -1,5 +1,27 @@
 <script src="<?php bloginfo('template_url');?>/js/carrousel.js"></script>
 
+
+<?php
+	$args = array(
+		'tag'      => 'slide',
+		'showposts' => 4
+	);
+	query_posts( $args );
+	$img_slide=array();
+	$link_slide=array();
+	$titulo_slide=array();
+	$i=0;
+	while ( have_posts() ) : the_post(); 
+		$img_slide[$i]=get_field("imagen");
+		$link_slide[$i]=get_permalink();
+		$titulo_slide[$i]=get_the_title();
+		$i++;
+	endwhile;
+	wp_reset_query(); 
+?>
+
+
+
 <div id="myCarousel" class="carousel slide" style="max-heigh=300px; margin-bottom:0px;">
 	<div class="carousel-indicators">
 		<a class="boton_carousel" href="#myCarousel" data-slide-to="0">
@@ -21,7 +43,7 @@
     </div>
     <div class="carousel-inner">
     	<div class="item active" >
-        	<img src="http://lorempixel.com/975/300/" alt="">
+        	<img src="<?php echo $img_slide[0];?>" alt="">
         	<div class="contenedor_titular">
 	        	<h1 class="titular_slide">
 	        		<span>
@@ -43,7 +65,7 @@
         	</div>
 	    </div>
     	<div class="item" >
-        	<img src="http://lorempixel.com/975/300/" alt="">
+        	<img src="<?php echo $img_slide[1];?>" alt="">
         	<div class="contenedor_titular">
 	        	<h1 class="titular_slide">
 	        		<span>
@@ -65,7 +87,7 @@
         	</div>
 	    </div>
     	<div class="item" >
-        	<img src="http://lorempixel.com/975/300/" alt="">
+        	<img src="<?php echo $img_slide[2];?>" alt="">
         	<div class="contenedor_titular">
 	        	<h1 class="titular_slide">
 	        		<span>
@@ -87,7 +109,7 @@
         	</div>
 	    </div>
     	<div class="item" >
-        	<img src="http://lorempixel.com/975/300/" alt="">
+        	<img src="<?php echo $img_slide[3];?>" alt="">
         	<div class="contenedor_titular">
 	        	<h1 class="titular_slide">
 	        		<span>
