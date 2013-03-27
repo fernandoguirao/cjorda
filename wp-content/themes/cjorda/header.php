@@ -9,17 +9,16 @@
 <html>
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
-		<?php javascripts();?>
 		<?php estilos();?>
+		<?php javascripts();?>
 		<title><?php wp_title( '|', true, 'right' ); ?></title>
 		<?php wp_head(); ?>
-
 	</head>
+	<body>
 	<header>
 		<div class="container" id="header">
 			<?php get_crono();?>
 		</div>
 		<?php get_barra_nav();?>
 	</header>
-	<body>
 		<div class="container">
