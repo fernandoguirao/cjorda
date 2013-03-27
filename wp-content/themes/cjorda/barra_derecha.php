@@ -34,7 +34,8 @@
 			<a href="<?php echo $item->get_permalink();?>">
 				<div class="entrada_derecha">
 					<div class="contenedor_icono"><img src="<?php bloginfo("template_url");?>/img/twitter.png"></div>
-					<p><?php echo $item->get_title();?></p>
+					<p><?php echo substr($item->get_title(), 12)?></p>
+					<p><?php echo $item->get_date('d\.m\.Y');?></p>
 				</div>
 			</a>		
 		<?php endforeach; ?>
