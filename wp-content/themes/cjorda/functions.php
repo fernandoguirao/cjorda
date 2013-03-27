@@ -87,4 +87,13 @@ function mandar_email(){
 	}
 }
 
+function get_buscador() {
+?>
+	<form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+	    <img src="<?php bloginfo("template_url");?>/img/lupa.png">
+	    <input type="text" placeholder="BUSCAR.." class="inp_buscar" value="" name="s" id="s" />
+    </form><?
+}
+
+
 ?>

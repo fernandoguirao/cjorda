@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: circuitos
+*/
+?>
 <?php get_header(); ?>
 	<?php get_carousel();?>
 	<div class="container-fluid bordesuperior">
@@ -8,10 +13,11 @@
 				<?php
 					$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 					$args = array(
-						'category_name'=>'noticias',
 					  'posts_per_page' => 7,
+					  'category_name'=>'circuitos',
 					  'paged' => $paged
   					);
+
 					query_posts($args); 
 				?>
 				

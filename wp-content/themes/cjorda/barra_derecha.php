@@ -17,8 +17,9 @@
 	<?php wp_reset_query(); ?>
 
 	<div class="buscador">
-		<img src="<?php bloginfo("template_url");?>/img/lupa.png">
-		<input type="text" placeholder="BUSCAR..." class="inp_buscar">
+		
+		<?php get_buscador(); ?>
+
 	</div>
 	
 	<?php
