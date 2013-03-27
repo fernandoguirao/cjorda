@@ -96,5 +96,28 @@ function get_buscador() {
     </form><?
 }
 
+function compartir(){
+?>				
+	<div class="span5 btn_compartir">
+		<a href="http://www.facebook.com/sharer.php?
+		s=100
+		&p[url]=<?php the_permalink();?>
+		&p[title]=<?php the_title(); ?>
+		&p[summary]=<?php echo get_the_excerpt(); ?>"  
+		target="_blank">
+		<div class="ico-face">
+		</div>
+		</a>
+		<a href="https://twitter.com/share?url=<?php echo the_permalink();?>&text=<?php echo the_permalink();?> <?php the_title();?>&via=CarmenJorda&lang=es">
+			<div class="ico-twit">
+			</div>
+		</a>
+		<span>
+			Compartir
+		</span>
+	</div>
 
+
+<?php
+}
 ?>

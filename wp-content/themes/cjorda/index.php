@@ -18,12 +18,11 @@
 				<?php while ( have_posts() ) : the_post(); ?>
 					<div class="noticia">
 						<div class="minibarra"></div>
-						<img src="<?php the_field("imagen");?>" class="imgmain">
+						<a href="<?php the_permalink();?>"><img src="<?php the_field("imagen");?>" class="imgmain"></a>
 						<div class="contenidonoticia">
 							<div class="fecha_noticia"><?php the_date('d \D\E\ F \D\E\ Y', '<p style="text-transform: uppercase">', '</p>'); ?></div>
-							<div class="titulo_noticia"><p><?php the_title();?></p></div>
+							<a href="<?php the_permalink();?>"><div class="titulo_noticia"><p><?php the_title();?></p></div></a>
 							<div class="cuerpo_entrada"><?php the_excerpt();?></div>
-							<div style="display: none;"><?php the_content();?></div>
 							<div class="container-fluid container_botones">
 								<div class="row-fluid">
 									<a class="read-more" href="<?php the_permalink();?>">
@@ -35,15 +34,7 @@
 											</span>
 										</div>
 									</a>
-									<div class="span5 btn_compartir">
-										<div class="ico-face">
-										</div>
-										<div class="ico-twit">
-										</div>
-										<span>
-											Compartir
-										</span>
-									</div>
+									<?php compartir();?>
 								</div>
 							</div>
 						</div>
