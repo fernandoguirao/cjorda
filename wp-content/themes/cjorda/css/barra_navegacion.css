@@ -1,9 +1,9 @@
 
 .barra{
 	background: url("../img/barra.png");
-	height: 54px;
+	height: 61px;
 	width: 100%;
-	background-repeat: repeat-x;
+	background-position: 0px -1px;
 }
 
 #menu_nav{
@@ -13,20 +13,21 @@
 }
 
 .btn_barra{
-	width: 12%;
-	height: 100%;
+	color: #B4D6EE;
 	float: left;
+	height: 36px;
 	margin-left: 2px;
 	margin-right: 2px;
+	margin-top: 8px;
+	padding-top: 15px;
 	text-align: center;
 	vertical-align: middle;
-	color: #b4d6ee;
-
+	width: 12%;
 }
 .btn_barra:hover{
 	color: #ffffff;
 	background-image: url("../img/btn_activo.png");
-	background-repeat: repeat-x;
+	background-size: 100% auto;
 
 }
 .btn_activo{

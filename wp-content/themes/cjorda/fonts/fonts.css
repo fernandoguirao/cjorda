@@ -17,7 +17,7 @@
 
 
 @font-face {
-    font-family: 'klavika_bdbold';
+    font-family: 'klavikabold';
     src: url('klavika-bold-webfont.eot');
     src: url('klavika-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('klavika-bold-webfont.woff') format('woff'),
@@ -62,7 +62,7 @@
 
 
 @font-face {
-    font-family: 'klavika_rgregular';
+    font-family: 'klavika';
     src: url('klavika-regular-webfont.eot');
     src: url('klavika-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('klavika-regular-webfont.woff') format('woff'),

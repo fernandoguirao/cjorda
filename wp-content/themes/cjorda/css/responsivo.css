@@ -1,0 +1,67 @@
+/* IPAD */
+@media (min-width: 768px) and (max-width: 979px) {
+
+	div.contenedor_titular{
+		margin-top:-188px;
+	}
+	.carousel-indicators {
+	  margin-right: -10px;
+	  top: 189px;
+	}
+	.noticia_destacada {
+		margin-left:1px;
+	}
+	.entrada_derecha {
+		padding-left:18px;
+	}
+	.inp_buscar {
+		width: 145px;
+		margin-left: -18px;
+	}
+	.buscador {
+	  padding-left: 30px;
+	}
+	.buscador img {
+	  margin-right: 31px;
+	}
+	.noticia_destacada {
+	  padding-left: 34px;
+	}
+	.entrada_derecha p {
+	  font-size: 14px;
+	  margin-left: 14px;
+	  margin-top: 8px;
+	  width: 145px;
+	 }
+}
+
+/* IPHONE LANDING */
+@media (max-width: 767px) {
+
+	#home_content {
+		width:100%;
+	}
+	.carousel-indicators {
+	  margin-right: -10px;
+	  top: 5px;
+	}
+	div.contenedor_titular{
+		margin-top:-77px;
+	}
+	
+	h1.titular_slide {
+		font-size:22px;
+	}
+	
+	.span5.btn_seguir{
+		display:inline;
+	}
+
+}
+
+/* IPHONE VERTICAL */
+@media (max-width: 480px) {
+	.carousel-indicators, a.btn_leer_mas {
+		display:none;
+	}
+}

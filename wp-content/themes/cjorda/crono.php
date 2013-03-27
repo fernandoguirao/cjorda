@@ -69,3 +69,9 @@ $events = eo_get_events(array(
 	
 
 </script>
+
+			<div class="sombrasup">
+				<img src="<?php bloginfo('template_url')?>/img/sombra-sup.png" alt="">
+			</div>
+			<div class="sombra">
+			</div>

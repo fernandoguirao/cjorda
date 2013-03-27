@@ -3,6 +3,10 @@
 	width: 20px;
 }
 
+.carousel-inner {
+	max-height:294px;
+}
+
 .boton_carousel{
 	float: left;
 	padding: 2px;
@@ -47,18 +51,18 @@ h1.titular_slide br {
 
 a.btn_leer_mas{
 	display: inline-block;
-	font-family: 'klavikalight';
-	font-size: 10px;
-	font-weight: normal;
+  font-family: klavika;
+  font-size: 11px;
+  font-weight: normal;
 	margin-top: 7px;
 }
 
-.lbl_leer_mas{
-	float: left;
-	background: black;
-	color: white;
-	height: 23px;
-	width: 58px;
+.lbl_leer_mas {
+  background: none repeat scroll 0 0 black;
+  color: white;
+  float: left;
+  height: 23px;
+  width: 58px;
 }
 
 .lbl_leer_mas span,.lbl_plus span {

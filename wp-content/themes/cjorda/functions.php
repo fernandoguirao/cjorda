@@ -16,6 +16,7 @@ function estilos(){
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/barra_navegacion.css">
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/noticias_box.css">
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/barra_derecha.css">
+    	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/responsivo.css">
     <?php
 }
 
