@@ -11,6 +11,9 @@
 		while ( have_posts() ) : the_post(); ?>
 			<a href="<?php the_permalink(); ?> ">
 			<div class="cuadro_noticia <?php if($i%2==0)echo 'cuadro_noticia_izquierda'; else echo 'cuadro_noticia_derecha';?>">
+				<div class="mascar" style="overflow:hidden;width:80px;height:62px;float:left;float:left; margin-right:10px;">
+					<img src="<?php the_field("imagen");?>" style="margin-top:5px;min-width:80px;min-height:40px;">
+				</div>
 				<h1><?php echo get_the_date('d\.m\.Y'); ?></h1>
 				<p><?php the_title()?></p>
 			</div>

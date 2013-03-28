@@ -12,7 +12,7 @@
 	$titulo_slide=array();
 	$i=0;
 	while ( have_posts() ) : the_post(); 
-		$img_slide[$i]=get_field("imagen");
+		$img_slide[$i]=get_field("slideimagen");
 		$link_slide[$i]=get_permalink();
 		$titulo_slide[$i]=get_the_title();
 		$i++;

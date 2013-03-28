@@ -26,7 +26,7 @@
 							<div class="container-fluid container_botones">
 								<div class="row-fluid">
 									<a class="read-more" href="<?php the_permalink();?>">
-										<div class="span5 btn_seguir">
+										<div class="span4 btn_seguir">
 											<div class="ico-seguir">
 											</div>
 											<span>
@@ -34,7 +34,7 @@
 											</span>
 										</div>
 									</a>
-									<?php compartir();?>
+									<div class="hidden-phone"><?php compartir();?></div>
 								</div>
 							</div>
 						</div>
