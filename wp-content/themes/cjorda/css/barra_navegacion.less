@@ -57,13 +57,13 @@ transition: @transition;
 	text-align: center;
 	vertical-align: middle;
 	width: 12%;
-	background-size: 100% auto;
+	background-size: 100% 100%;
 	.opacity(0.6);
 }
 .btn_barra:hover{
 	color: #ffffff;
 	background-image: url("../img/btn_activo.png");
-	background-size: 100% auto;
+	background-size: 100% 100%;
 	.opacity(1);
 }
 .btn_activo{
@@ -96,4 +96,31 @@ transition: @transition;
 
 .btn_barra.activeb:hover {
 	background-image:none;
+}
+
+.redes .btn_barra {
+  width: 42px;
+  background-size: 100% 100%;
+}
+
+.menuiphone {
+  margin-top: 18px;
+  margin-left: 10px;
+  font-family: klavika;
+  text-transform: uppercase;
+}
+
+.menuiphone .btn_barra {
+  width: 200px;
+}
+.menuiphone .dropdown-menu {
+background-color:rgba(23,81,138,0.94);
+}
+
+.menuiphone .dropdown-menu > li > a {
+  display: inline-block;
+}
+
+.menuiphone .btn_barra:hover {
+    background-image:none;
 }

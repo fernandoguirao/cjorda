@@ -10,12 +10,13 @@ function estilos(){
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/fonts/fonts.css">
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css">
     	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap-responsive.min.css">
-    	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/style.less">
+    	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/style.css">
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/carousel.less">
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/crono.less">
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/barra_navegacion.less">
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/noticias_box.less">
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/barra_derecha.less">
+    	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/footer.less">
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/paginas.less">
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/responsivo.less">
     <?php
