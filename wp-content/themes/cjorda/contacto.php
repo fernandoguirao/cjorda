@@ -11,7 +11,9 @@ Template Name: contacto
 				<div class="estado_mail">
 					<?php mandar_email();?>
 				</div>
-				<form class="form-horizontal" method="post">
+				<form class="form-horizontal contactoform" method="post">
+				    <h2>Quieres contarnos algo?</h2>
+				    <h3>Rellena nuestro formulario de contacto. Gracias.</h3>
 					<div class="control-group">
 						<label class="control-label" for="inputName">Cómo te llamas</label>
 						<div class="controls">
@@ -21,7 +23,7 @@ Template Name: contacto
 					<div class="control-group">
 						<label class="control-label" for="inputEmail">Email</label>
 						<div class="controls">
-							<input type="text" name="email" id="inputEmail" placeholder="tu@email.com">
+							<input type="text" name="email" id="inputEmail" placeholder="Tu email">
 						</div>
 					</div>
 					<div class="control-group">
@@ -39,7 +41,7 @@ Template Name: contacto
 					</div>
 					<div class="control-group">
 						<div class="controls">
-							<label class="checkbox">
+							<label class="checkbox" style="font-size: 13px; padding-bottom: 12px; width: 183px;">
 								<input type="checkbox" name="acepta" value="Yes"> Estás de acuerdo con nuestra <a href="">política de confidencialidad</a>
 							</label>
 							<input type="hidden" name="mandado">

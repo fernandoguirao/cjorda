@@ -37,6 +37,8 @@
 			</div>
 		</footer>
 
+		<?php get_scripts_footer();?>
+
 	</body>
 
 </html>

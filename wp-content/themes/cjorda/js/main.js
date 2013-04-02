@@ -9,6 +9,14 @@ $(document).ready(function($){
 		crono();
 		$('.carousel').carousel('cycle');  
 
+/* ELIMINAR LINKS */
+
+/*
+$('a.fc-event').click(function(e) {
+    e.preventDefault();
+    return false;
+});
+*/
 });
 
 /* FUNCIÓN SCROLL HEADER */
@@ -24,3 +32,4 @@ $(window).scroll(function() {
   
         }
     });
+

@@ -23,25 +23,10 @@ Template Name: circuitos
 				<?php while ( have_posts() ) : the_post(); ?>
 					<div class="noticia">
 						<div class="minibarra"></div>
-						<a href="<?php the_permalink();?>"><img src="<?php the_field("imagen");?>" class="imgmain"></a>
+						<img src="<?php the_field("imagen");?>" class="imgmain img-polaroid">
 						<div class="contenidonoticia">
-							<div class="fecha_noticia"><?php the_date('d \D\E\ F \D\E\ Y', '<p style="text-transform: uppercase">', '</p>'); ?></div>
-							<a href="<?php the_permalink();?>"><div class="titulo_noticia"><p><?php the_title();?></p></div></a>
-							<div class="cuerpo_entrada"><?php the_excerpt();?></div>
-							<div class="container-fluid container_botones">
-								<div class="row-fluid">
-									<a class="read-more" href="<?php the_permalink();?>">
-										<div class="span5 btn_seguir">
-											<div class="ico-seguir">
-											</div>
-											<span>
-												Seguir Leyendo
-											</span>
-										</div>
-									</a>
-									<?php compartir();?>
-								</div>
-							</div>
+							<div class="titulo_noticia"><p><?php the_title();?></p></div>
+							<div class="cuerpo_entrada"><?php the_content();?></div>
 						</div>
 						
 					</div>

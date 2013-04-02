@@ -150,3 +150,7 @@ header {
   display: inline-block;
   margin-top: 59px;
 }
+
+.btn {
+    font-family:klavika;
+}
