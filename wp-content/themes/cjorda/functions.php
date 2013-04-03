@@ -18,6 +18,15 @@ function estilos(){
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/barra_derecha.less">
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/footer.less">
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/paginas.less">
+    	<!--[if IE]>
+			<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/ie.css" />
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/ie8.css" />
+		<![endif]-->
+		<!--[if lt IE 8]>
+			<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/ie7.css" />
+		<![endif]-->
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/responsivo.less">
     <?php
 }

@@ -15,5 +15,5 @@ Template Name: page
 			</div>
 			<?php get_barraderecha();?>
 		</div>
-	</div>
+
 <?php get_footer(); ?>

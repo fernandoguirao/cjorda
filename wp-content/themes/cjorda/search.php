@@ -10,56 +10,38 @@
 get_header(); ?>
 
 	<?php get_carousel();?>
-	<div class="container-fluid bordesuperior">
+	<div id="buscaador" class="container-fluid bordesuperior">
 		<div class="minibarra"></div>
 		<div class="row-fluid no-space columnaizda">
 			<div class="span8" id="home_content">
 				<?php if(have_posts()):?>
+				<p class="tex"> Se han encontrado las siguientes coincidencias:</p>
+				<div class="separador"></div>
 				<?php while ( have_posts() ) : the_post(); ?>
-					<div class="noticia">
-						<div class="minibarra"></div>
-						<img src="<?php the_field("imagen");?>" class="imgmain">
-						<div class="contenidonoticia">
-							<div class="fecha_noticia"><?php the_date('d \D\E\ F \D\E\ Y', '<p style="text-transform: uppercase">', '</p>'); ?></div>
-							<div class="titulo_noticia"><p><?php the_title();?></p></div>
-							<div class="cuerpo_entrada"><?php the_excerpt();?></div>
-							<div class="container-fluid container_botones">
-								<div class="row-fluid">
-									<a class="read-more" href="<?php the_permalink();?>">
-										<div class="span5 btn_seguir">
-											<div class="ico-seguir">
-											</div>
-											<span>
-												Seguir Leyendo
-											</span>
-										</div>
-									</a>
-									<div class="span5 btn_compartir">
-										<div class="ico-face">
-										</div>
-										<div class="ico-twit">
-										</div>
-										<?php compartir();?>
-									</div>
-								</div>
-							</div>
-						</div>
+						<a href="<?php the_permalink(); ?>" class="buscaenlace">
+						    <div class="imagbus">
+						      <img src="<?php the_field("imagen");?>" class="imagenbusqueda">
+						  </div>
+							<p class="titulobusqueda"><?php the_title();?></p>
+							<p class="fechabusqueda"><?php the_date('d \d\e\ F \d\e\ Y'); ?></p>
+							<div class="textobusqueda"><?php the_excerpt();?></div>
+							
+						</a>
 						
-					</div>
+					
 				<?php endwhile; ?>
-				¿Desea realizar otra busqueda?
-				<?php get_buscador();?>
-				<?php else:?>
-					No hay resultados
-					¿Desea realizar otra busqueda?
-				<?php get_buscador();?>
-				<?php endif;?>
 				<div class="paginacion">
 					<?php previous_posts_link(); ?>
 					<span class="posterior">
 						<?php next_posts_link(); ?>
 					</span>
 				</div>
+				<?php else:?>
+					<p class="tex">No hubo resultados, pruebe con otra combinación de palabras.</p>
+					<p class="tex">Gracias.</p>
+					<div class="separador"></div>
+				<?php endif;?>
+				
 			</div>
 			<?php get_barraderecha();?>
 		</div>

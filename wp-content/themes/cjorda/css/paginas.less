@@ -7,9 +7,11 @@
 transition: @transition;
 }
 
-.ngg-gallery-thumbnail img {
+.ngg-gallery-thumbnail img,.der-mascara {
     .transition(@transition: background-color .5s ease-in-out);
 }
+
+
 
 /* CALENDARIO */
 
@@ -118,10 +120,10 @@ transition: @transition;
 */
 
 .fc-header-title h2 {
-  background:transparent;
-  color: white;
-  margin-left: 216px;
-  margin-top: -98px !important;
+  background: none repeat scroll 0 0 transparent;
+  color: #333333;
+  margin-left: 46px;
+  margin-top: -27px !important;
   position: absolute;
   text-align: center !important;
   white-space: nowrap;
@@ -199,6 +201,59 @@ pre {
     background-color: #80bee8!important;
 }
 
+#shName, #shCount {
+  display: none;
+}
+
+
+
+/*
+#gallery-1 .gallery-item {
+  float: left;
+  margin: 0!important;
+  text-align: center;
+  width: 33%;
+}
+
+#gallery-1 img {
+  border: 3px solid white!important;
+  width: 100%;
+}
+
+.der-mascara {
+width: 40%;
+    height: 40%;
+    background: #444;
+    margin: 0 auto;
+}
+
+.der-mascara:hover {
+    background:#2873A5;
+}
+
+.der-mascara img {
+   max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+#galeria #home_content {
+  width: 100%!important;
+}
+
+#imagenes {
+
+}
+
+.separador {
+  height: 20px;
+  position: relative;
+  width: 22px;
+  display: block;
+  clear: both;
+}
+*/
+
 /* CIRCUITOS */
 
 #circuitos .noticia img.imgmain {
@@ -256,9 +311,92 @@ text-align:center;
   margin: 0 auto;
 }
 
+/* SINGLE */
+
+#otra .fecha_noticia {
+    margin-top:12px;
+}
+
+/* PATROCINADORES */
+
+#partners {
+    .noticia img.imgmain {
+        width:inherit;
+        text-align:center;
+    }
+    .noticia {
+        padding:10%;
+    }
+}
+
+/* BUSCADOR */
+
+.imagenbusqueda {
+  float: left;
+  width: 110px;
+  margin-right: 19px;
+  margin-top: 0px;
+  top: 0px;
+}
+
+.buscaenlace {
+  display: block;
+}
+
+.imagbus {
+  background-color: transparent;
+  display: inline-block;
+  float: left;
+  margin-right: 18px;
+  margin-top: 5px;
+  min-height: 78px;
+  width: 110px;
+  max-height: 123px;
+  overflow: hidden;
+}
+
+.titulobusqueda {
+  font-family: klavika;
+  text-transform: uppercase;
+}
+
+.fechabusqueda {
+  top: -11px;
+  position: relative;
+  font-size: 0.9em;
+  color: gray;
+}
+
+.textobusqueda {
+  position: relative;
+  margin-top: -10px;
+  top: 0px;
+}
+
+.buscaenlace {
+  margin-top: 24px;
+}
+
+#otra .paginacion {
+  padding: 10px 41px 16px;
+}
+
+#buscaador .tex {
+  color: gray;
+  font-family: klavika;
+  font-size: 22px;
+}
+
+.separador {
+  width: 1px;
+  height: 12px;
+}
+
+
+
 /* TODOS */
 
-#galeria h1.titular_slide,#calendario h1.titular_slide,#circuitos h1.titular_slide,#aboutme h1.titular_slide {
+#partners h1.titular_slide,#galeria h1.titular_slide,#calendario h1.titular_slide,#circuitos h1.titular_slide,#aboutme h1.titular_slide {
   background: none repeat scroll 0 0 transparent;
   color: #FFFFFF;
   display: inline;
@@ -269,7 +407,7 @@ text-align:center;
   white-space: normal;
 }
 
-#galeria div.contenedor_titular,#calendario div.contenedor_titular,#circuitos div.contenedor_titular,#aboutme div.contenedor_titular  {
+#partners div.contenedor_titular,#galeria div.contenedor_titular,#calendario div.contenedor_titular,#circuitos div.contenedor_titular,#aboutme div.contenedor_titular  {
   background: none repeat scroll 0 0 rgba(46, 132, 189, 0.87);
   bottom: 0 !important;
   display: inline !important;
@@ -284,3 +422,6 @@ text-align:center;
   top: inherit;
 }
 
+#home_content {
+  padding-bottom: 14px;
+}

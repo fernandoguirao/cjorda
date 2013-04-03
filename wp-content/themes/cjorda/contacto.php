@@ -12,7 +12,7 @@ Template Name: contacto
 					<?php mandar_email();?>
 				</div>
 				<form class="form-horizontal contactoform" method="post">
-				    <h2>Quieres contarnos algo?</h2>
+				    <h2>¿Quieres contarnos algo?</h2>
 				    <h3>Rellena nuestro formulario de contacto. Gracias.</h3>
 					<div class="control-group">
 						<label class="control-label" for="inputName">Cómo te llamas</label>
@@ -35,7 +35,7 @@ Template Name: contacto
 					<div class="control-group">
 						<label class="control-label" for="inputMensaje">Mensaje</label>
 						<div class="controls">
-							<textarea rows="3"  name="contenido" id="inputMensaje" placeholder="Email">
+							<textarea rows="3"  name="contenido" id="inputMensaje" placeholder="Tu mensaje">
 							</textarea>
 						</div>
 					</div>
@@ -52,5 +52,4 @@ Template Name: contacto
 			</div>
 			<?php get_barraderecha();?>
 		</div>
-	</div>
 <?php get_footer(); ?>

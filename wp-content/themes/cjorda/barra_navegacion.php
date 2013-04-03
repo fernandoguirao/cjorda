@@ -28,7 +28,7 @@
     		<a href="<?php bloginfo("url");?>/partners"><div class="btn_barra <?php if(is_page("partners"))echo 'activeb';?>"><p>PARTNERS</p></div></a>
     		<a href="https://www.facebook.com/carmenjordaofficial" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/facebook.png" alt=""></div></a>
     		<a href="http://twitter.com/carmenjorda" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/twitter.png" alt=""></div></a>
-    		<a href="http://www.youtube.com/results?search_query=carmen+jorda&oq=carmen+jorda&gs_l=youtube.3...48.710.0.811.5.5.0.0.0.0.0.0..0.0...0.0...1ac.1." class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/youtube.png" alt=""></div></a>
+    		<a href="http://www.youtube.com/results?search_query=carmen+jorda&oq=carmen+jorda&gs_l=youtube.3...48.710.0.811.5.5.0.0.0.0.0.0..0.0...0.0...1ac.1." class="redes youtube"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/youtube.png" alt=""></div></a>
 	   </div>
 	</div>
 </div>
@@ -64,7 +64,7 @@
     		<a href="<?php bloginfo("url");?>/partners"><div class="btn_barra <?php if(is_page("partners"))echo 'activeb';?>"><p>PARTNERS</p></div></a>
     		<a href="https://www.facebook.com/carmenjordaofficial" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/facebook.png" alt=""></div></a>
     		<a href="http://twitter.com/carmenjorda" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/twitter.png" alt=""></div></a>
-    		<a href="http://www.youtube.com/results?search_query=carmen+jorda&oq=carmen+jorda&gs_l=youtube.3...48.710.0.811.5.5.0.0.0.0.0.0..0.0...0.0...1ac.1." class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/youtube.png" alt=""></div></a>
+    		<a href="http://www.youtube.com/results?search_query=carmen+jorda&oq=carmen+jorda&gs_l=youtube.3...48.710.0.811.5.5.0.0.0.0.0.0..0.0...0.0...1ac.1." class="redes youtube"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/youtube.png" alt=""></div></a>
 	   </div>
 	</div>
 </div>

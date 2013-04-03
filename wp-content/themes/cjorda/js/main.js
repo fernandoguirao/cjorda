@@ -33,3 +33,13 @@ $(window).scroll(function() {
         }
     });
 
+/* VÍDEOS EN NEXTGEN GALLERY */
+
+$(document).ready(function(){
+  $(".ngg-gallery-thumbnail a").each(function (arr){
+    if ($(this).attr("title").substr(0,5)=="Vídeo"){
+      $(this).attr("rel","shadowbox;width=405;height=340");
+      $(this).attr("href","http://youtube.com/v/"+$(this).children("img").attr("title"));
+    }
+  })
+});

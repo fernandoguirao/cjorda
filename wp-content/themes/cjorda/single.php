@@ -9,7 +9,7 @@
 					<div class="noticia">
 						<div class="minibarra"></div>
 						<img src="<?php the_field("imagen");?>">
-						<div class="fecha_noticia"><?php the_date('d-F-Y', '<p style="text-transform: uppercase">', '</p>'); ?></div>
+						<div class="fecha_noticia"><?php the_date('d \D\E\ F \D\E\ Y', '<p style="text-transform: uppercase">', '</p>'); ?></div>
 						<div class="titulo_noticia"><p><?php the_title();?></p></div>
 						<div style=""><?php the_content();?></div>
 						<div class="container-fluid container_botones">
