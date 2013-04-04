@@ -51,4 +51,4 @@
 			<?php get_barraderecha();?>
 		</div>
 	</div>
-<?php get_footer(); ?>s
+<?php get_footer(); ?>
