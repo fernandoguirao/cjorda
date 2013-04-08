@@ -25,15 +25,15 @@
 <div id="myCarousel" class="carousel slide" style="max-heigh=300px; margin-bottom:0px;">
 	<div class="carousel-indicators">
 		<a class="boton_carousel" href="#myCarousel" data-slide-to="0">
-	    	<div class="boton_slide" style="background:#ffffff;">
+	    	<div class="boton_slide" style="background:#3a739c;">
 	    	</div>
 	    </a>
 		<a class="boton_carousel" href="#myCarousel" data-slide-to="1">
-	    	<div class="boton_slide" style="background:#85bee6;">
+	    	<div class="boton_slide" style="background:#3a739c;">
 	    	</div>
 	    </a>
 		<a class="boton_carousel" href="#myCarousel" data-slide-to="2">
-	    	<div class="boton_slide" style="background:#5790b8;">
+	    	<div class="boton_slide" style="background:#3a739c;">
 	    	</div>
 	    </a>
 	    <a class="boton_carousel" href="#myCarousel" data-slide-to="3">
@@ -45,11 +45,13 @@
     	<div class="item active" >
         	<img src="<?php echo $img_slide[0];?>" alt="">
         	<div class="contenedor_titular">
-	        	<h1 class="titular_slide">
+	        	<a href="<?php echo $link_slide[0];?>" class="titulink">
+	        	  <h1 class="titular_slide">
 	        		<span>
 	        			<?php echo $titulo_slide[0];?>
 	        		</span>
 	        	</h1>
+	        	</a>
 	        	<a href="<?php echo $link_slide[0];?>" class="btn_leer_mas">
 		        	<div class="lbl_leer_mas">
 		        		<span>
@@ -67,11 +69,13 @@
     	<div class="item" >
         	<img src="<?php echo $img_slide[1];?>" alt="">
         	<div class="contenedor_titular">
+	        	<a href="<?php echo $link_slide[1];?>" class="titulink">
 	        	<h1 class="titular_slide">
 	        		<span>
 	        			<?php echo $titulo_slide[1];?>
 	        		</span>
 	        	</h1>
+	        	</a>
 	        	<a href="<?php echo $link_slide[1];?>" class="btn_leer_mas">
 		        	<div class="lbl_leer_mas">
 		        		<span>
@@ -89,11 +93,13 @@
     	<div class="item" >
         	<img src="<?php echo $img_slide[2];?>" alt="">
         	<div class="contenedor_titular">
+        	<a href="<?php echo $link_slide[2];?>" class="titulink">
 	        	<h1 class="titular_slide">
 	        		<span>
 	        			<?php echo $titulo_slide[2];?>
 	        		</span>
 	        	</h1>
+        	</a>
 	        	<a href="<?php echo $link_slide[2];?>" class="btn_leer_mas">
 		        	<div class="lbl_leer_mas">
 		        		<span>
@@ -111,11 +117,13 @@
     	<div class="item" >
         	<img src="<?php echo $img_slide[3];?>" alt="">
         	<div class="contenedor_titular">
+        	<a href="<?php echo $link_slide[3];?>" class="titulink">
 	        	<h1 class="titular_slide">
 	        		<span>
 	        			<?php echo $titulo_slide[3];?>
 	        		</span>
 	        	</h1>
+        	</a>
 	        	<a href="<?php echo $link_slide[3];?>" class="btn_leer_mas">
 		        	<div class="lbl_leer_mas">
 		        		<span>

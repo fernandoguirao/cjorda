@@ -43,3 +43,14 @@ $(document).ready(function(){
     }
   })
 });
+
+/* ESTILOS DE NOTICIAS EN HOME */
+
+$("#notihome .noticia:first-child").addClass('primera');
+/*
+$("#notihome .noticia:nth-last-child(4)").addClass('dos');
+$("#notihome .noticia:nth-last-child(3)").addClass('dos');
+*/
+$("#notihome .noticia:nth-last-child(2)").addClass('dos');
+$("#notihome .noticia:nth-last-child(1)").addClass('dos');
+

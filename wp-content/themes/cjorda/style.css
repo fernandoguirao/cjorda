@@ -19,7 +19,7 @@ header {
 }
 #header{
 	background-image: url("img/textura.png");
-	height: 235px;
+	height: 185px;
 	margin-bottom:0px;
 }
 
@@ -153,4 +153,30 @@ header {
 
 .btn {
     font-family:klavika;
+}
+
+.sombrasup img {
+/*   height: 189px!important; */
+  height: 257px!important;
+  width: 100%;
+}
+
+#logo {
+  margin-left: 34px;
+  position: absolute;
+  top: 36px;
+  z-index: 2;
+}
+
+.container.sconta {
+  position: relative;
+  z-index: 1 !important;
+}
+
+.noticia a:hover {
+    text-decoration:none;
+}
+
+.noticia:hover {
+    background-color:#e8f3fb!important;
 }

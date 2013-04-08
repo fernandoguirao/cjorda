@@ -24,7 +24,7 @@
 	<?php
 		include_once(ABSPATH . WPINC . '/feed.php');
 		$rss = fetch_feed('https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=CarmenJorda');
-		$maxitems = $rss->get_item_quantity(7);
+		$maxitems = $rss->get_item_quantity(4);
 		$rss_items = $rss->get_items(0, $maxitems);
 	?>
  

@@ -4,11 +4,11 @@
 		<footer>
 			<div class="footer">
 			     <div id="foot-izq">
-    				<div class="menu_footer">
+    				<div class="menu_footer hidden-phone">
     					<a href="<?php bloginfo("url");?>" class="home">HOME</a>
     					<a href="<?php bloginfo("url");?>/calendario" class="calendario">CALENDARIO</a>
     					<a href="<?php bloginfo("url");?>/galeria" class="galeria">GALERIA</a>
-    					<a href="<?php bloginfo("url");?>/circuitos" class="circuitos">CIRCUITOS</a>
+    					
     					<a href="<?php bloginfo("url");?>/about" class="about-me">ABOUT ME</a>
     					<a href="<?php bloginfo("url");?>/contacto" class="contacto">CONTACTO</a>
     					<a href="<?php bloginfo("url");?>/partners" class="partners">PARTNERS</a>
