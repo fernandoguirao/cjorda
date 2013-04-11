@@ -29,7 +29,7 @@
     		<div class="botonesredes">
     		<a href="https://www.facebook.com/carmenjordaofficial" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/facebook3.png" alt=""></div></a>
     		<a href="http://twitter.com/carmenjorda" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/twitter3.png" alt=""></div></a>
-    		<a href="http://www.youtube.com/results?search_query=carmen+jorda&oq=carmen+jorda&gs_l=youtube.3...48.710.0.811.5.5.0.0.0.0.0.0..0.0...0.0...1ac.1." class="redes youtube"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/youtube3.png" alt=""></div></a>
+    		<a href="http://instagram.com/carmenjorda#" class="redes youtube"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/instaboton.png" alt=""></div></a>
     		</div>
 	   </div>
 	</div>
@@ -67,7 +67,7 @@
     		<div class="botonesredes">
     		<a href="https://www.facebook.com/carmenjordaofficial" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/facebook3.png" alt=""></div></a>
     		<a href="http://twitter.com/carmenjorda" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/twitter3.png" alt=""></div></a>
-    		<a href="http://www.youtube.com/results?search_query=carmen+jorda&oq=carmen+jorda&gs_l=youtube.3...48.710.0.811.5.5.0.0.0.0.0.0..0.0...0.0...1ac.1." class="redes youtube"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/youtube3.png" alt=""></div></a>
+    		<a href="http://instagram.com/carmenjorda#" class="redes youtube"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/instaboton.png" alt=""></div></a>
     		</div>
 	   </div>
 	</div>

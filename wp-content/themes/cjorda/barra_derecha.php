@@ -24,7 +24,7 @@
 	<?php
 		include_once(ABSPATH . WPINC . '/feed.php');
 		$rss = fetch_feed('https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=CarmenJorda');
-		$maxitems = $rss->get_item_quantity(4);
+		$maxitems = $rss->get_item_quantity(2);
 		$rss_items = $rss->get_items(0, $maxitems);
 	?>
  
@@ -41,6 +41,12 @@
 				</div>
 			</a>		
 		<?php endforeach; ?>
+		<div class="entrada_derecha">
+		           <div class="contenedor_icono"><img src="<?php bloginfo("template_url");?>/img/instagram.png"></div>
+				<div class="conte">
+				    <?php echo do_shortcode('[alpine-phototile-for-instagram user="fguirao" src="user_recent" imgl="instagram" style="vertical" size="M" num="1" align="center" max="100"]') ?>
+				</div>
+		</div>
 	</ul>
 
 </div>
