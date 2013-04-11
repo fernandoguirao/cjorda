@@ -10,33 +10,24 @@ Template Name: calendario
 		<div class="row-fluid no-space columnaizda">
 			<div class="span8" id="home_content">
 				<?php
-					$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-					$args = array(
-					  'posts_per_page' => 7,
-					  'category_name'=>'circuitos',
-					  'paged' => $paged
-  					);
+					$events = eo_get_events(array( 
+						'events_start_after'=>'today', 
+						'showpastevents'=>false,//Will be deprecated, but set it to true to play it safe. 
+					));
+					if($events):
+					foreach($events as $event):
+						echo get_the_title($event->ID); //Titulo del evento
+						the_field("circuito", $event->ID); //Circuito donde se corre
+						echo eo_format_date($event->StartDate, 'd\/m\/Y');//fecha del evento
+						the_field("pais", $event->ID); //Pais del circuito
+						?>
+						<img src="<?php the_field("bandera", $event->ID);?>">
+						<img src="<?php the_field("imagen", $event->ID);?>">
 
-					query_posts($args); 
-				?>
-				
-				<?php while ( have_posts() ) : the_post(); ?>
-					<div class="noticia">
-						<div class="minibarra"></div>
-						<img src="<?php the_field("imagen");?>" class="imgmain img-polaroid">
-						<div class="contenidonoticia">
-							<div class="titulo_noticia"><p><?php the_title();?></p></div>
-							<div class="cuerpo_entrada"><?php the_content();?></div>
-						</div>
-						<?php get_eventos(get_the_title());?>
-					</div>
-				<?php endwhile; ?>
-				<div class="paginacion">
-					<?php previous_posts_link(); ?>
-					<span class="posterior">
-						<?php next_posts_link(); ?>
-					</span>
-				</div>
+						<?php
+					endforeach;
+					endif;
+			?>
 			</div>
 			<?php get_barraderecha();?>
 		</div>

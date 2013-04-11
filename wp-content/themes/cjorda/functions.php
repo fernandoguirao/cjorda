@@ -144,17 +144,4 @@ function compartir(){
 <?php
 }
 
-function get_eventos($circuito){
-	$events = eo_get_events(array( 
-       'events_start_after'=>'today', 
-       'showpastevents'=>false,//Will be deprecated, but set it to true to play it safe. 
-  ));
-   if($events):
-   	foreach($events as $event):
-  		if(get_field("circuito", $event->ID)==$circuito)
-	  		echo	get_the_title($event->ID);
-  	endforeach;
-  endif;
-  
-}
 ?>
