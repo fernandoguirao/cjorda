@@ -15,7 +15,7 @@ get_header(); ?>
 		<div class="row-fluid no-space columnaizda">
 			<div class="span8" id="home_content">
 				<?php if(have_posts()):?>
-				<p class="tex"> Se han encontrado las siguientes coincidencias:</p>
+				<p class="tex"> Found the following matches:</p>
 				<div class="separador"></div>
 				<?php while ( have_posts() ) : the_post(); ?>
 						<a href="<?php the_permalink(); ?>" class="buscaenlace">
@@ -37,8 +37,8 @@ get_header(); ?>
 					</span>
 				</div>
 				<?php else:?>
-					<p class="tex">No hubo resultados, pruebe con otra combinación de palabras.</p>
-					<p class="tex">Gracias.</p>
+					<p class="tex">There were no results, try another combination of words.</p>
+					<p class="tex">Thanks.</p>
 					<div class="separador"></div>
 				<?php endif;?>
 				

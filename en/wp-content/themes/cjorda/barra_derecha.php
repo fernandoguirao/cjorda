@@ -9,7 +9,7 @@
 	while ( have_posts() ) : the_post(); ?>
 	<a href="<?php the_permalink();?>">
 		<div class="noticia_destacada" style="background-image:url(<?php the_field("slideimagen");?>);background-size:141% auto;">
-				<p class="ultimahora">Reportaje a fondo</p><br><p style="margin-top: -1px;"><?php the_title();?></p>
+				<p class="ultimahora">Deep review</p><br><p style="margin-top: -1px;"><?php the_title();?></p>
 		</div>
 	</a>
 	<?php endwhile;?>
@@ -36,7 +36,7 @@
 					<div class="contenedor_icono"><img src="<?php bloginfo("template_url");?>/img/twitter.png"></div>
 					<div class="conte">
 						<p><?php echo substr($item->get_title(), 12)?></p>
-						<p class="lafecha">Publicado el <?php echo $item->get_date('d\.m\.Y');?></p>
+						<p class="lafecha">Published  <?php echo $item->get_date('d\.m\.Y');?></p>
 					</div>
 				</div>
 			</a>		

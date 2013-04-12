@@ -12,10 +12,10 @@ Template Name: contacto
 					<?php mandar_email();?>
 				</div>
 				<form class="form-horizontal contactoform" method="post">
-				    <h2>¿Quieres contarnos algo?</h2>
-				    <h3>Rellena nuestro formulario de contacto. Gracias.</h3>
+				    <h2>Do you want tell us something?</h2>
+				    <h3>Fill our contact form. Thanks.</h3>
 					<div class="control-group">
-						<label class="control-label" for="inputName">Cómo te llamas</label>
+						<label class="control-label" for="inputName">Whats your name?</label>
 						<div class="controls">
 							<input type="text" name="nombre" id="inputName" placeholder="Tu nombre y apellidos">
 						</div>
@@ -27,13 +27,13 @@ Template Name: contacto
 						</div>
 					</div>
 					<div class="control-group">
-						<label class="control-label" for="inputAsunto">Asunto</label>
+						<label class="control-label" for="inputAsunto">Subject</label>
 						<div class="controls">
 							<input type="text" name="asunto" id="inputAsunto" placeholder="Asunto">
 						</div>
 					</div>
 					<div class="control-group">
-						<label class="control-label" for="inputMensaje">Mensaje</label>
+						<label class="control-label" for="inputMensaje">Message</label>
 						<div class="controls">
 							<textarea rows="3"  name="contenido" id="inputMensaje" placeholder="Tu mensaje">
 							</textarea>
@@ -42,10 +42,10 @@ Template Name: contacto
 					<div class="control-group">
 						<div class="controls">
 							<label class="checkbox" style="font-size: 13px; padding-bottom: 12px; width: 183px;">
-								<input type="checkbox" name="acepta" value="Yes"> Estás de acuerdo con nuestra <a href="">política de confidencialidad</a>
+								<input type="checkbox" name="acepta" value="Yes"> Are you agree with our <a href="">Privacy Policy</a>
 							</label>
 							<input type="hidden" name="mandado">
-							<button type="submit" class="btn">Enviar mensaje</button>
+							<button type="submit" class="btn">Send message</button>
 						</div>
 					</div>
 			</form>

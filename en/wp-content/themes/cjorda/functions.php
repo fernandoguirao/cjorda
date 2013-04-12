@@ -137,7 +137,7 @@ function compartir(){
 			</div>
 		</a>
 		<span>
-			Compartir
+			Share
 		</span>
 	</div>
 

@@ -25,11 +25,11 @@
         				</a>
     				</div>
     				<div class="copyright">
-    					©Carmen Jordá 2013 | <a href="">Aviso legal</a>
+    					©Carmen Jordá 2013 | <a href="">Legal Warning</a>
     				</div>
 				</div>
 				<div class="patrocinadores_footer visible-desktop">
-					Patrocinadores
+					Partners
 					<div class="patrocinador_footer">
 						<img src="<?php bloginfo("template_url");?>/img/patrocinadores.png">
 					</div>

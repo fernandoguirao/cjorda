@@ -27,7 +27,7 @@ Template Name: page
 
 				<!-- The content or the description of the event-->
 				<?php the_content(); ?>
-				<a <a class="btn" href="<?php bloginfo("url");?>/calendario">Volver al calendario</a>
+				<a <a class="btn" href="<?php bloginfo("url");?>/calendario">Return to calendar</a>
 				
 			</div><!-- .entry-content -->
 
