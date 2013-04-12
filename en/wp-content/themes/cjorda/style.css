@@ -1,0 +1,182 @@
+h1, p{
+	font-family: 'klavikalight';
+	font-weight: normal;
+}
+h1 b, p b{
+	color: black;
+	font-weight: normal;
+}
+
+body{
+	/*background-image: url("img/plantilla.jpg");
+	background-repeat: no-repeat;*/
+	background: black;
+	background-image:url('img/fondo.png');
+}
+
+header {
+	background-color:black;
+}
+#header{
+	background-image: url("img/textura.png");
+	height: 185px;
+	margin-bottom:0px;
+}
+
+.columnaizda {
+	background-color:#F2F2F2;
+}
+
+#home_content {
+	background-color:white;
+}
+
+.footer{
+	background-image: url("img/fondo_footer.png");
+	width: 100%;
+	height: 210px;
+}
+
+.noticia{
+	background-color: white;
+}
+
+.noticia img.imgmain {
+	width:100%;
+}
+
+.contenidonoticia {
+	padding:24px 42px;
+}
+
+.fecha_noticia p {
+	color: #3a739c;
+	font-size: 14px;
+	font-family:'klavika';
+}
+.titulo_noticia p {
+	color: #3a739c;
+	font-size: 30px;
+	font-family:'klavikamedium';
+}
+.cuerpo_entrada p {
+	font-size:14px;
+	color:#777575;
+	font-family:'klavika';
+	line-height:1.5;
+}
+
+
+.btn_seguir,.btn_compartir{
+	color: #3a739c;
+	text-transform:uppercase;
+	font-family:'klavika';
+	font-size:13px;
+	margin-top:10px;
+}
+
+.btn_seguir span, .btn_compartir span {
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.ico-seguir,.ico-face,.ico-twit {
+	background-image: url("img/iconosnoticia.png");
+	float: left;
+	height: 27px;
+	margin-right: 10px;
+	width: 27px;
+	background-position:-3px 0;
+}
+
+.ico-face {
+	background-position:-30px 0px;
+	margin-right:0px;
+}
+
+.ico-twit {
+	background-position:-57px 0px;
+}
+
+.no-space { /*apply to the row */
+      margin-left:0;
+ }
+.row-fluid .span8 {  /* overrides bootstrap.css to allow for no gutter */
+
+   width: 65%;
+}
+.row-fluid .span4 {  /* overrides bootstrap.css to allow for no gutter */
+
+   width: 35%;
+   margin-left: 0px!important;
+}
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.bordesuperior {
+	border-top:10px solid #0e76bc;
+}
+
+.container_botones{
+	padding-left: 0;
+	height: 45px;
+}
+
+.comentarios{
+	padding: 10px;
+}
+
+.paginacion {
+	background-color: #D6EAF8;
+	color: #38719A !important;
+	font-family: klavika;
+	padding: 12px 41px;
+	text-transform: uppercase;
+	min-height:14px;
+}
+
+.paginacion a {
+	color: #38719A !important;
+}
+
+.paginacion .posterior {
+	float:right;
+}
+
+
+.menu_footer {
+  display: inline-block;
+  margin-top: 59px;
+}
+
+.btn {
+    font-family:klavika;
+}
+
+.sombrasup img {
+/*   height: 189px!important; */
+  height: 257px!important;
+  width: 100%;
+}
+
+#logo {
+  margin-left: 34px;
+  position: absolute;
+  top: 36px;
+  z-index: 2;
+}
+
+.container.sconta {
+  position: relative;
+  z-index: 1 !important;
+}
+
+.noticia a:hover {
+    text-decoration:none;
+}
+
+.noticia:hover {
+    background-color:#e8f3fb!important;
+}
