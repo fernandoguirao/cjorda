@@ -30,6 +30,7 @@
     		<a href="https://www.facebook.com/carmenjordaofficial" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/facebook3.png" alt=""></div></a>
     		<a href="http://twitter.com/carmenjorda" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/twitter3.png" alt=""></div></a>
     		<a href="http://instagram.com/carmenjorda#" class="redes youtube"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/instaboton.png" alt=""></div></a>
+    		<a href="http://instagram.com/carmenjorda#" class="redes gp3"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/gp3.png" alt=""></div></a>
     		</div>
 	   </div>
 	</div>
