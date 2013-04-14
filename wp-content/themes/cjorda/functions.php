@@ -20,6 +20,7 @@ function estilos(){
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/paginas.less">
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/nuevasnoticias.less">
     	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/calendario.less">
+    	<link rel="stylesheet/less" href="<?php bloginfo('template_url'); ?>/css/galeria.less">
     	<!--[if IE]>
 			<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/ie.css" />
 		<![endif]-->
