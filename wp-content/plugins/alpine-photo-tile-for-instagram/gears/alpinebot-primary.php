@@ -20,6 +20,7 @@ class PhotoTileForInstagramPrimary {
   private $name = 'Alpine PhotoTile for Instagram';
   private $info = 'http://thealpinepress.com/alpine-phototile-for-instagram/';
   private $wplink = 'http://wordpress.org/extend/plugins/alpine-photo-tile-for-instagram/';
+  private $donatelink = 'https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=eric%40thealpinepress%2ecom&lc=US&item_name=Alpine%20PhotoTile%20for%20Instagram%20Donation&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted';
   private $page = 'AlpineTile: Instagram';
   private $src = 'instagram';
   private $hook = 'APTFINbyTAP_hook';
@@ -309,7 +310,7 @@ class PhotoTileForInstagramPrimary {
     }elseif( 'fancybox' == $string ){
       return $this->url.'/js/fancybox/jquery.fancybox-1.3.4.pack.js?ver=1.3.4';
     }elseif( 'prettyphoto' == $string ){
-      return $this->url.'/js/prettyphoto/js/jquery.prettyPhoto.js?ver=3.1.4';
+      return $this->url.'/js/prettyPhoto/js/jquery.prettyPhoto.js?ver=3.1.4';
     }elseif( 'colorbox' == $string ){
       return $this->url.'/js/colorbox/jquery.colorbox-min.js?ver=1.4.5';	
     }elseif( 'alpine-fancybox' == $string ){
@@ -331,7 +332,7 @@ class PhotoTileForInstagramPrimary {
     }elseif( 'fancybox' == $string ){
       return $this->url.'/js/fancybox/jquery.fancybox-1.3.4.css?ver=1.3.4';
     }elseif( 'prettyphoto' == $string ){
-      return $this->url.'/js/prettyphoto//css/prettyPhoto.css?ver=3.1.4';
+      return $this->url.'/js/prettyPhoto/css/prettyPhoto.css?ver=3.1.4';
     }elseif( 'colorbox' == $string ){
       return $this->url.'/js/colorbox/colorbox.css?ver=1.3.21';	
     }elseif( 'alpine-fancybox' == $string ){
