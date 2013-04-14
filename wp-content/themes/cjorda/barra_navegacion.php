@@ -27,11 +27,10 @@
     		<a href="<?php bloginfo("url");?>/partners"><div class="btn_barra <?php if(is_page("partners"))echo 'activeb';?>"><p>PARTNERS</p></div></a>
     		<a href="<?php bloginfo("url");?>/contacto"><div class="btn_barra <?php if(is_page("contacto"))echo 'activeb';?>"><p>CONTACTO</p></div></a>
     		<div class="botonesredes">
-    		<a href="https://www.facebook.com/carmenjordaofficial" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/facebook3.png" alt=""></div></a>
-    		<a href="http://twitter.com/carmenjorda" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/twitter3.png" alt=""></div></a>
-    		<a href="http://instagram.com/carmenjorda#" class="redes youtube"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/instaboton.png" alt=""></div></a>
-    		<a href="http://instagram.com/carmenjorda#" class="redes gp3"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/gp3.png" alt=""></div></a>
-    		</div>
+    		<a target="_blank" href="https://www.facebook.com/carmenjordaofficial" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/facebook3.png" alt=""></div></a>
+    		<a target="_blank" href="http://twitter.com/carmenjorda" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/twitter3.png" alt=""></div></a>
+    		<a target="_blank" href="http://instagram.com/carmenjorda#" class="redes youtube"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/instaboton.png" alt=""></div></a>
+    	</div>
 	   </div>
 	</div>
 </div>
@@ -66,9 +65,9 @@
     		<a href="<?php bloginfo("url");?>/contacto"><div class="btn_barra <?php if(is_page("contacto"))echo 'activeb';?>"><p>CONTACTO</p></div></a>
     		<a href="<?php bloginfo("url");?>/partners"><div class="btn_barra <?php if(is_page("partners"))echo 'activeb';?>"><p>PARTNERS</p></div></a>
     		<div class="botonesredes">
-    		<a href="https://www.facebook.com/carmenjordaofficial" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/facebook3.png" alt=""></div></a>
-    		<a href="http://twitter.com/carmenjorda" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/twitter3.png" alt=""></div></a>
-    		<a href="http://instagram.com/carmenjorda#" class="redes youtube"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/instaboton.png" alt=""></div></a>
+    		<a target="_blank" href="https://www.facebook.com/carmenjordaofficial" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/facebook3.png" alt=""></div></a>
+    		<a target="_blank" href="http://twitter.com/carmenjorda" class="redes"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/twitter3.png" alt=""></div></a>
+    		<a target="_blank" href="http://instagram.com/carmenjorda#" class="redes youtube"><div class="btn_barra"><img src="<?php bloginfo("template_url");?>/img/instaboton.png" alt=""></div></a>
     		</div>
 	   </div>
 	</div>

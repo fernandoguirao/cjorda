@@ -25,7 +25,7 @@
         				</a>
     				</div>
     				<div class="copyright">
-    					©Carmen Jordá 2013 | <a href="">Aviso legal</a>
+    					©Carmen Jordá 2013 | <a href="">Aviso legal</a> | <a href="<?php bloginfo("url");?>/en">English version</a>
     				</div>
 				</div>
 				<div class="patrocinadores_footer visible-desktop">

@@ -31,7 +31,7 @@
 	<ul>
 		<?php
 		foreach ( $rss_items as $item ) : ?>
-			<a href="<?php echo $item->get_permalink();?>">
+			<a target="_blank" href="<?php echo $item->get_permalink();?>">
 				<div class="entrada_derecha">
 					<div class="contenedor_icono"><img src="<?php bloginfo("template_url");?>/img/twitter.png"></div>
 					<div class="conte">

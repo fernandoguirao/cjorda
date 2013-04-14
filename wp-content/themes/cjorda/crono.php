@@ -17,6 +17,13 @@ $events = eo_get_events(array(
 			$minuto_evento=eo_format_date($event->StartTime, 'i');
 		?>
 		<div class="contenedor_crono">
+		
+			<div id="cronoizq">
+				<a href="http://instagram.com/carmenjorda#" class="gp3"><img src="<?php bloginfo("template_url");?>/img/gp3.png" alt=""></a>
+				
+
+			</div>
+		
 			<div class="cr_digito" id="cr_titulo"><?php echo	get_the_title($event->ID);?></div>
 			<div class="cr_digito cr_reloj" id="cr_dias">0</div>
 			<div class="cr_digito cr_puntos">:</div>
