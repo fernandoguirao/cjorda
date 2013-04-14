@@ -1,3 +1,12 @@
+/* TRANSPARENCIA */
+.opacity (@trans: 0.5) {
+	@trans1:@trans * 10;
+	-moz-opacity:@trans;
+	opacity:@trans;
+	-khtml-opacity: @trans;
+	filter:alpha(opacity=@trans1);
+}
+
 @media (min-width: 979px) and (max-width: 1200px) {
 	.carousel-indicators {
 	  margin-right: -10px;
@@ -322,6 +331,10 @@ body {
 
 /* IPHONE VERTICAL */
 @media (max-width: 480px) {
+body {
+	width:100%!important;
+	overflow-x:hidden!important;
+}
 	.carousel-indicators, a.btn_leer_mas {
 		display:none;
 	}
@@ -535,4 +548,42 @@ body {
 	display:none;
 }
 
+.contenedor_crono {
+	width:300px!important;
+}
+
+/*
+body {
+  margin-left: 15px;
+}
+
+.sombrasup {
+  height: auto;
+  margin-top: 0;
+  width: 105%;
+}
+*/
+
+.sombrasup img {
+  height: auto;
+  margin-left: 1px;
+  width: 100% !important;
+}
+.sombrasup {
+  height: auto;
+  margin-top: 0;
+  width: 100% !important;
+}
+
+#contenedor_sombras {
+  width: 100%!important;
+  .opacity(0.7);
+}
+
+body {
+	overflow-x:hidden!important;
+}
+.contenedor_crono {
+  background-color: inherit;
+}
 }
