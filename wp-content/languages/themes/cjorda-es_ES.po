@@ -1,0 +1,86 @@
+# Copyright (C) 2013 Bueninvento
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Carmen Jordá 1.5\n"
+"Report-Msgid-Bugs-To: http://bueninvento.esPOT-Creation-Date: 2013-01-01 "
+"00:19:40+00:00\n"
+"POT-Creation-Date: 2013-04-15 02:08+0100\n"
+"PO-Revision-Date: 2013-04-15 02:08+0100\n"
+"Last-Translator: Fernando Guirao <bueninvento@bueninvento.es>\n"
+"Language-Team: Bueninvento <bueninvento@bueninvento.es>\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ../themes/cjorda\n"
+
+#: ../themes/cjorda/barra_derecha.php:12
+msgid "STORY OF THE MONTH"
+msgstr "REPORTAJE A FONDO"
+
+#: ../themes/cjorda/barra_derecha.php:40
+msgid "Published on "
+msgstr "Publicado el "
+
+#: ../themes/cjorda/barra_navegacion.php:11
+#: ../themes/cjorda/barra_navegacion.php:22
+#: ../themes/cjorda/barra_navegacion.php:49
+#: ../themes/cjorda/barra_navegacion.php:60 ../themes/cjorda/footer.php:8
+msgid "HOME"
+msgstr "INICIO"
+
+#: ../themes/cjorda/barra_navegacion.php:12
+#: ../themes/cjorda/barra_navegacion.php:23
+#: ../themes/cjorda/barra_navegacion.php:50
+#: ../themes/cjorda/barra_navegacion.php:61 ../themes/cjorda/footer.php:9
+msgid "CALENDAR"
+msgstr "CALENDARIO"
+
+#: ../themes/cjorda/barra_navegacion.php:13
+#: ../themes/cjorda/barra_navegacion.php:24
+#: ../themes/cjorda/barra_navegacion.php:51
+#: ../themes/cjorda/barra_navegacion.php:62 ../themes/cjorda/footer.php:10
+msgid "GALLERY"
+msgstr "GALERÍA"
+
+#: ../themes/cjorda/barra_navegacion.php:15
+#: ../themes/cjorda/barra_navegacion.php:26
+#: ../themes/cjorda/barra_navegacion.php:53
+#: ../themes/cjorda/barra_navegacion.php:64 ../themes/cjorda/footer.php:12
+msgid "ABOUT ME"
+msgstr "BIOGRAFÍA"
+
+#: ../themes/cjorda/barra_navegacion.php:16
+#: ../themes/cjorda/barra_navegacion.php:27
+#: ../themes/cjorda/barra_navegacion.php:55
+#: ../themes/cjorda/barra_navegacion.php:66 ../themes/cjorda/footer.php:14
+#: ../themes/cjorda/footer.php:32
+msgid "PARTNERS"
+msgstr "SPONSORS"
+
+#: ../themes/cjorda/barra_navegacion.php:17
+#: ../themes/cjorda/barra_navegacion.php:28
+#: ../themes/cjorda/barra_navegacion.php:54
+#: ../themes/cjorda/barra_navegacion.php:65 ../themes/cjorda/footer.php:13
+msgid "CONTACT"
+msgstr "CONTACTO"
+
+#: ../themes/cjorda/carousel.php:58 ../themes/cjorda/carousel.php:82
+#: ../themes/cjorda/carousel.php:106 ../themes/cjorda/carousel.php:130
+msgid "READ MORE"
+msgstr "LEER MÁS"
+
+#: ../themes/cjorda/footer.php:28
+msgid "Legal terms"
+msgstr "Términos de uso"
+
+#, fuzzy
+#~ msgid "HOME ME"
+#~ msgstr "INICIO"

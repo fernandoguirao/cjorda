@@ -1,0 +1,137 @@
+/* @color:#d6003e; */
+
+/* DEFINICIONES LESS */
+
+.transition (@transition: all .5s ease-in-out) {
+-webkit-transition: @transition;
+-moz-transition: @transition;
+-o-transition: @transition;
+transition: @transition;
+}
+
+.rounded-corners {  
+  -moz-border-radius: 10px; /* Firefox */  
+  -webkit-border-radius: 10px; /* Safari, Chrome */  
+  border-radius: 10px; /* CSS3 */  
+}  
+
+/* TRANSPARENCIA */
+.opacity (@trans: 0.5) {
+	@trans1:@trans * 10;
+	-moz-opacity:@trans;
+	opacity:@trans;
+	-khtml-opacity: @trans;
+	filter:alpha(opacity=@trans1);
+}
+
+
+.btn_barra{
+.transition(all .3s linear);
+}
+
+/* FIN DE DEFINICIONES */
+
+.barra{
+	background: url("../img/barra.png");
+	height: 61px;
+	position:relative;
+	width:100%;
+	z-index:2;
+	background-position: 0px -1px;
+}
+
+#menu_nav{
+	margin: auto;
+	padding-left: 5px;
+	height: 100%
+}
+
+.btn_barra{
+	color: #ffffff;
+	float: left;
+	height: 36px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 8px;
+	padding-top: 15px;
+	text-align: center;
+	vertical-align: middle;
+	width: 12%;
+	background-size: 100% 100%;
+	.opacity(0.6);
+}
+.btn_barra:hover{
+	color: #ffffff;
+	background-image: url("../img/btn_activo.png");
+	background-size: 100% 100%;
+	.opacity(1);
+}
+
+.btn_activo{
+	background-image: url("../img/btn_activo.png");
+	background-repeat: repeat-x;
+	color: #ffffff;
+}
+
+.btn_barra p{
+	font-size: 15px;
+}
+
+.menuscroll {
+	position:fixed;
+	margin-top:-241px;
+	top:-100px;
+}
+
+.btn_barra.activeb p {
+  font-family: klavika;
+  color: white;
+}
+
+.btn_barra.activeb {
+  font-family: klavika;
+  color: white;
+  .opacity(1);
+  cursor:default;
+}
+
+.btn_barra.activeb:hover {
+	background-image:none;
+}
+
+.redes .btn_barra {
+  width: 42px;
+  background-size: 100% 100%;
+  margin-top:0px;
+}
+
+.redes .btn_barra:hover {
+    background-image:none;
+}
+
+.menuiphone {
+  margin-top: 18px;
+  margin-left: 10px;
+  font-family: klavika;
+  text-transform: uppercase;
+}
+
+.menuiphone .btn_barra {
+  width: 200px;
+}
+.menuiphone .dropdown-menu {
+background-color:rgba(23,81,138,0.94);
+}
+
+.menuiphone .dropdown-menu > li > a {
+  display: inline-block;
+}
+
+.menuiphone .btn_barra:hover {
+    background-image:none;
+}
+
+.botonesredes {
+  float: left;
+  margin-left: 17px;
+}
