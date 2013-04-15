@@ -15,7 +15,7 @@ get_header(); ?>
 		<div class="row-fluid no-space columnaizda">
 			<div class="span8" id="home_content">
 				<?php if(have_posts()):?>
-				<p class="tex"> Se han encontrado las siguientes coincidencias:</p>
+				<p class="tex"> <?php _e("We found those results:", "cjorda"); ?></p>
 				<div class="separador"></div>
 				<?php while ( have_posts() ) : the_post(); ?>
 						<a href="<?php the_permalink(); ?>" class="buscaenlace">
@@ -23,7 +23,9 @@ get_header(); ?>
 						      <img src="<?php the_field("imagen");?>" class="imagenbusqueda">
 						  </div>
 							<p class="titulobusqueda"><?php the_title();?></p>
-							<p class="fechabusqueda"><?php the_date('d \d\e\ F \d\e\ Y'); ?></p>
+							<p class="fechabusqueda">
+							<?php the_date('d\, F\, Y'); ?>							
+							</p>
 							<div class="textobusqueda"><?php the_excerpt();?></div>
 							
 						</a>
@@ -37,8 +39,8 @@ get_header(); ?>
 					</span>
 				</div>
 				<?php else:?>
-					<p class="tex">No hubo resultados, pruebe con otra combinación de palabras.</p>
-					<p class="tex">Gracias.</p>
+					<p class="tex"><?php _e("Sorry, there wasn't results. Try searching other words", "cjorda"); ?></p>
+					<p class="tex"><?php _e("Thanks.", "cjorda"); ?></p>
 					<div class="separador"></div>
 				<?php endif;?>
 				

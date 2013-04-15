@@ -776,6 +776,10 @@ class QtranslateSlug {
 	function filter_request( $query ) {
 		global $q_config, $wp_query, $wp;
 		
+		if(isset($query['s'])){
+			return array('s' => $query['s']);
+		}
+		
 		if (isset($wp->matched_query))
 			$query = wp_parse_args($wp->matched_query);
 		
@@ -2321,4 +2325,16 @@ function qts_uninstall() {
 	foreach ($q_config['enabled_languages'] as $lang) $meta_keys[] = sprintf("_qts_slug_%s", $lang);
 	$meta_keys = "'". implode( "','", $meta_keys ) . "'";
 	$wpdb->query("DELETE from $wpdb->postmeta WHERE meta_key IN ($meta_keys)");	
+}
+
+remove_action('wp_head','qtrans_header');
+add_action('wp_head','qtranslate_slug_header_extended');
+function qtranslate_slug_header_extended(){
+global $qtranslate_slug;
+global $q_config;
+if(is_404()) return;
+foreach($q_config['enabled_languages'] as $language) {
+if($language != qtrans_getLanguage())
+echo '<link hreflang="'.$language.'" href="'.$qtranslate_slug->get_current_url($language).'" rel="alternate" />'."\n";
+}
 }

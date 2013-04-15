@@ -82,23 +82,23 @@ function mandar_email(){
 	$cadena="";
 	if(isset($_POST["mandado"])){
 		if($_POST["acepta"]!="Yes"){
-			$cadena.="Tienes que aceptar nuestra patata política de confidencialidad<br>";
+			$cadena.="You must accept our privacy police.<br>";
 			$invalido=1;
 		}
 		if($_POST["nombre"]==""){
-			$cadena.="Tienes que introducir tu nombre<br>";
+			$cadena.="You must introduce your name.<br>";
 			$invalido=1;
 		}
 		if($_POST["email"]==""){
-			$cadena.="Tienes que introducir tu email<br>";
+			$cadena.="You must introduce your email<br>";
 			$invalido=1;
 		}
 		if($_POST["asunto"]==""){
-			$cadena.="Tienes que introducir un asunto<br>";
+			$cadena.="You must introduce your subject<br>";
 			$invalido=1;
 		}
 		if($_POST["contenido"]==""){
-			$cadena.="Tienes que introducir el contenido<br>";
+			$cadena.="You must introduce your message<br>";
 			$invalido=1;
 		}
 		if($invalido==0){
@@ -107,9 +107,9 @@ function mandar_email(){
 			$cuerpo.="Email: ".$_POST["email"]."\n";
 			$cuerpo.="Mensaje: ".$_POST["contenido"]."\n";
 			if(mail(get_option('admin_email'),$_POST["asunto"],$cuerpo))
-				$cadena="Email mandado<br>";
+				$cadena="Email sent<br>";
 			else
-				$cadena="Ha ocurrido un error, intentalo de nuevo más tarde<br>";
+				$cadena="There was a problem, try sending us your message again, please.<br>";
 		}
 		echo $cadena;
 	}
@@ -117,9 +117,10 @@ function mandar_email(){
 
 function get_buscador() {
 ?>
+	<?php $idioma = get_bloginfo('language');	?>
 	<form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
 	    <img src="<?php bloginfo("template_url");?>/img/lupa.png">
-	    <?php $idioma = get_bloginfo('language');	?><input type="text" placeholder="<?php if ($idioma == 'es-ES') { ?>BUSCAR...<?php } else { ?>SEARCH...<?php } ?>" class="inp_buscar" value="" name="s" id="s" />
+	    <input type="text" placeholder="<?php if ($idioma == 'es-ES') { ?>BUSCAR...<?php } else { ?>SEARCH...<?php } ?>" class="inp_buscar" value="" name="s" id="s" />
     </form><?
 }
 

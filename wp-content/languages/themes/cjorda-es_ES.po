@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: Carmen Jordá 1.5\n"
 "Report-Msgid-Bugs-To: http://bueninvento.esPOT-Creation-Date: 2013-01-01 "
 "00:19:40+00:00\n"
-"POT-Creation-Date: 2013-04-15 02:08+0100\n"
-"PO-Revision-Date: 2013-04-15 02:08+0100\n"
+"POT-Creation-Date: 2013-04-15 11:34+0100\n"
+"PO-Revision-Date: 2013-04-15 11:35+0100\n"
 "Last-Translator: Fernando Guirao <bueninvento@bueninvento.es>\n"
 "Language-Team: Bueninvento <bueninvento@bueninvento.es>\n"
 "Language: Spanish\n"
@@ -63,7 +63,7 @@ msgstr "BIOGRAFÍA"
 #: ../themes/cjorda/barra_navegacion.php:66 ../themes/cjorda/footer.php:14
 #: ../themes/cjorda/footer.php:32
 msgid "PARTNERS"
-msgstr "SPONSORS"
+msgstr "PARTNERS"
 
 #: ../themes/cjorda/barra_navegacion.php:17
 #: ../themes/cjorda/barra_navegacion.php:28
@@ -77,9 +77,53 @@ msgstr "CONTACTO"
 msgid "READ MORE"
 msgstr "LEER MÁS"
 
+#: ../themes/cjorda/contacto.php:15
+msgid "Do you have something to tell us?"
+msgstr "¿Quieres contarnos algo?"
+
+#: ../themes/cjorda/contacto.php:16
+msgid "Fill our contact form. Thanks!"
+msgstr "Rellena nuestro formulario de contacto. Gracias."
+
+#: ../themes/cjorda/contacto.php:18
+msgid "Your name"
+msgstr "Cómo te llamas"
+
+#: ../themes/cjorda/contacto.php:30
+msgid "Subject"
+msgstr "Asunto"
+
+#: ../themes/cjorda/contacto.php:36
+msgid "Message"
+msgstr "Mensaje"
+
+#: ../themes/cjorda/contacto.php:45
+msgid "Clicking here you agree with our"
+msgstr "Estás de acuerdo con nuestra"
+
+#: ../themes/cjorda/contacto.php:45
+msgid "privacy police"
+msgstr "política de confidencialidad"
+
+#: ../themes/cjorda/contacto.php:48
+msgid "Send message"
+msgstr "Enviar mensaje"
+
 #: ../themes/cjorda/footer.php:28
 msgid "Legal terms"
 msgstr "Términos de uso"
+
+#: ../themes/cjorda/search.php:18
+msgid "We found those results:"
+msgstr "Se han encontrado las siguientes coincidencias:"
+
+#: ../themes/cjorda/search.php:40
+msgid "Sorry, there wasn't results. Try searching other words"
+msgstr "No hubo resultados, pruebe con otra combinación de palabras."
+
+#: ../themes/cjorda/search.php:41
+msgid "Thanks."
+msgstr "Gracias."
 
 #, fuzzy
 #~ msgid "HOME ME"

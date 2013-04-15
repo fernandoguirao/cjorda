@@ -12,40 +12,40 @@ Template Name: contacto
 					<?php mandar_email();?>
 				</div>
 				<form class="form-horizontal contactoform" method="post">
-				    <h2>¿Quieres contarnos algo?</h2>
-				    <h3>Rellena nuestro formulario de contacto. Gracias.</h3>
+				    <h2><?php _e("Do you have something to tell us?", "cjorda"); ?></h2>
+				    <h3><?php _e("Fill our contact form. Thanks!", "cjorda"); ?></h3>
 					<div class="control-group">
-						<label class="control-label" for="inputName">Cómo te llamas</label>
+						<label class="control-label" for="inputName"><?php _e("Your name", "cjorda"); ?></label>
 						<div class="controls">
-							<input type="text" name="nombre" id="inputName" placeholder="Tu nombre y apellidos">
+							<input type="text" name="nombre" id="inputName" placeholder="">
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputEmail">Email</label>
 						<div class="controls">
-							<input type="text" name="email" id="inputEmail" placeholder="Tu email">
+							<input type="text" name="email" id="inputEmail" placeholder="">
 						</div>
 					</div>
 					<div class="control-group">
-						<label class="control-label" for="inputAsunto">Asunto</label>
+						<label class="control-label" for="inputAsunto"><?php _e("Subject", "cjorda"); ?></label>
 						<div class="controls">
-							<input type="text" name="asunto" id="inputAsunto" placeholder="Asunto">
+							<input type="text" name="asunto" id="inputAsunto" placeholder="">
 						</div>
 					</div>
 					<div class="control-group">
-						<label class="control-label" for="inputMensaje">Mensaje</label>
+						<label class="control-label" for="inputMensaje"><?php _e("Message", "cjorda"); ?></label>
 						<div class="controls">
-							<textarea rows="3"  name="contenido" id="inputMensaje" placeholder="Tu mensaje">
+							<textarea rows="3"  name="contenido" id="inputMensaje" placeholder="">
 							</textarea>
 						</div>
 					</div>
 					<div class="control-group">
 						<div class="controls">
 							<label class="checkbox" style="font-size: 13px; padding-bottom: 12px; width: 183px;">
-								<input type="checkbox" name="acepta" value="Yes"> Estás de acuerdo con nuestra <a href="">política de confidencialidad</a>
+								<input type="checkbox" name="acepta" value="Yes"> <?php _e("Clicking here you agree with our", "cjorda"); ?> <a href=""><?php _e("privacy police", "cjorda"); ?></a>
 							</label>
 							<input type="hidden" name="mandado">
-							<button type="submit" class="btn">Enviar mensaje</button>
+							<button type="submit" class="btn"><?php _e("Send message", "cjorda"); ?></button>
 						</div>
 					</div>
 			</form>

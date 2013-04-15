@@ -181,3 +181,15 @@ header {
 .noticia:hover {
     background-color:#e8f3fb!important;
 }
+
+#calendario h1.titular_slide span {
+  position: relative;
+  top: 3px;
+  font-size: 29px;
+}
+
+#home_content strong {
+  font-family: klavikabold;
+  font-size: 17px;
+  font-weight: normal;
+}

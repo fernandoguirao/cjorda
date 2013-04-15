@@ -10,7 +10,7 @@
 	<!--[if lt IE 7]>	<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 	<!--[if IE 7]>	<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 	<!--[if IE 8]>	<html class="no-js lt-ie9"> <![endif]-->
-	<!--[if gt IE 8]><!-->	<html class="no-js" lang="es"> <!--<![endif]-->
+	<!--[if gt IE 8]><!-->	<html class="no-js" <?php if ($idioma == 'es-ES') { ?>lang="es"<?php } else { ?>lang="en"<?php } ?>> <!--<![endif]-->
 
 	<!-- 0. HEAD -->
 	<head>
