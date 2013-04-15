@@ -21,7 +21,7 @@ $idioma = get_bloginfo('language');
 		<div class="contenedor_crono" <?php if ($idioma == 'es-ES') { ?><?php } else { ?>style="background-image:url('<?php bloginfo('template_url'); ?>/img/crono-eng.png');"<?php } ?>> 
 		
 			<div id="cronoizq">
-				<a href="http://instagram.com/carmenjorda#" class="gp3"><img src="<?php bloginfo("template_url");?>/img/gp3.png" alt=""></a>
+				<a href="http://instagram.com/carmenjorda#" class="gp3 hidden-phone"><img src="<?php bloginfo("template_url");?>/img/gp3.png" alt=""></a>
 				
 
 			</div>
