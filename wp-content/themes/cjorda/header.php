@@ -43,7 +43,15 @@
 		else
 			$page="otra";
 	?>
-	<body id="<?php echo $page;?>">
+	<body id="<?php echo $page;?>" onload="hide_preloader()">
+		<div id="preloader">
+			<div class="datospreloader">
+				<p><?php _e("Loading, please wait", "cjorda"); ?></p>
+				<img src="<?php bloginfo("template_url");?>/img/mascara.png" alt="" id="mascarapreloader">
+				<img src="<?php bloginfo("template_url");?>/img/rpm.gif" id="preloader_image" >
+				<img src="<?php bloginfo("template_url");?>/img/logo.png" id="prelogo" >
+			</div>
+		</div> 
 	<header>
 		<div class="container" id="header">
 		      <div id="logo">

@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: Carmen Jordá 1.5\n"
 "Report-Msgid-Bugs-To: http://bueninvento.esPOT-Creation-Date: 2013-01-01 "
 "00:19:40+00:00\n"
-"POT-Creation-Date: 2013-04-15 11:34+0100\n"
-"PO-Revision-Date: 2013-04-15 11:35+0100\n"
+"POT-Creation-Date: 2013-04-15 14:01+0100\n"
+"PO-Revision-Date: 2013-04-15 14:02+0100\n"
 "Last-Translator: Fernando Guirao <bueninvento@bueninvento.es>\n"
 "Language-Team: Bueninvento <bueninvento@bueninvento.es>\n"
 "Language: Spanish\n"
@@ -25,55 +25,55 @@ msgstr ""
 msgid "STORY OF THE MONTH"
 msgstr "REPORTAJE A FONDO"
 
-#: ../themes/cjorda/barra_derecha.php:40
+#: ../themes/cjorda/barra_derecha.php:44
 msgid "Published on "
 msgstr "Publicado el "
 
-#: ../themes/cjorda/barra_navegacion.php:11
-#: ../themes/cjorda/barra_navegacion.php:22
-#: ../themes/cjorda/barra_navegacion.php:49
-#: ../themes/cjorda/barra_navegacion.php:60 ../themes/cjorda/footer.php:8
+#: ../themes/cjorda/barra_navegacion.php:14
+#: ../themes/cjorda/barra_navegacion.php:71
+#: ../themes/cjorda/barra_navegacion.php:146
+#: ../themes/cjorda/barra_navegacion.php:203 ../themes/cjorda/footer.php:8
 msgid "HOME"
 msgstr "INICIO"
 
-#: ../themes/cjorda/barra_navegacion.php:12
 #: ../themes/cjorda/barra_navegacion.php:23
-#: ../themes/cjorda/barra_navegacion.php:50
-#: ../themes/cjorda/barra_navegacion.php:61 ../themes/cjorda/footer.php:9
+#: ../themes/cjorda/barra_navegacion.php:78
+#: ../themes/cjorda/barra_navegacion.php:155
+#: ../themes/cjorda/barra_navegacion.php:210 ../themes/cjorda/footer.php:9
 msgid "CALENDAR"
 msgstr "CALENDARIO"
 
-#: ../themes/cjorda/barra_navegacion.php:13
-#: ../themes/cjorda/barra_navegacion.php:24
-#: ../themes/cjorda/barra_navegacion.php:51
-#: ../themes/cjorda/barra_navegacion.php:62 ../themes/cjorda/footer.php:10
+#: ../themes/cjorda/barra_navegacion.php:32
+#: ../themes/cjorda/barra_navegacion.php:85
+#: ../themes/cjorda/barra_navegacion.php:164
+#: ../themes/cjorda/barra_navegacion.php:217 ../themes/cjorda/footer.php:10
 msgid "GALLERY"
 msgstr "GALERÍA"
 
-#: ../themes/cjorda/barra_navegacion.php:15
-#: ../themes/cjorda/barra_navegacion.php:26
-#: ../themes/cjorda/barra_navegacion.php:53
-#: ../themes/cjorda/barra_navegacion.php:64 ../themes/cjorda/footer.php:12
+#: ../themes/cjorda/barra_navegacion.php:41
+#: ../themes/cjorda/barra_navegacion.php:92
+#: ../themes/cjorda/barra_navegacion.php:173
+#: ../themes/cjorda/barra_navegacion.php:224 ../themes/cjorda/footer.php:12
 msgid "ABOUT ME"
 msgstr "BIOGRAFÍA"
 
-#: ../themes/cjorda/barra_navegacion.php:16
-#: ../themes/cjorda/barra_navegacion.php:27
-#: ../themes/cjorda/barra_navegacion.php:55
-#: ../themes/cjorda/barra_navegacion.php:66 ../themes/cjorda/footer.php:14
+#: ../themes/cjorda/barra_navegacion.php:50
+#: ../themes/cjorda/barra_navegacion.php:99
+#: ../themes/cjorda/barra_navegacion.php:182
+#: ../themes/cjorda/barra_navegacion.php:231 ../themes/cjorda/footer.php:14
 #: ../themes/cjorda/footer.php:32
 msgid "PARTNERS"
 msgstr "PARTNERS"
 
-#: ../themes/cjorda/barra_navegacion.php:17
-#: ../themes/cjorda/barra_navegacion.php:28
-#: ../themes/cjorda/barra_navegacion.php:54
-#: ../themes/cjorda/barra_navegacion.php:65 ../themes/cjorda/footer.php:13
+#: ../themes/cjorda/barra_navegacion.php:59
+#: ../themes/cjorda/barra_navegacion.php:106
+#: ../themes/cjorda/barra_navegacion.php:191
+#: ../themes/cjorda/barra_navegacion.php:238 ../themes/cjorda/footer.php:13
 msgid "CONTACT"
 msgstr "CONTACTO"
 
-#: ../themes/cjorda/carousel.php:58 ../themes/cjorda/carousel.php:82
-#: ../themes/cjorda/carousel.php:106 ../themes/cjorda/carousel.php:130
+#: ../themes/cjorda/carousel.php:55 ../themes/cjorda/carousel.php:79
+#: ../themes/cjorda/carousel.php:103 ../themes/cjorda/carousel.php:127
 msgid "READ MORE"
 msgstr "LEER MÁS"
 
@@ -113,15 +113,19 @@ msgstr "Enviar mensaje"
 msgid "Legal terms"
 msgstr "Términos de uso"
 
+#: ../themes/cjorda/header.php:49
+msgid "Loading, please wait"
+msgstr "Cargando página"
+
 #: ../themes/cjorda/search.php:18
 msgid "We found those results:"
 msgstr "Se han encontrado las siguientes coincidencias:"
 
-#: ../themes/cjorda/search.php:40
+#: ../themes/cjorda/search.php:42
 msgid "Sorry, there wasn't results. Try searching other words"
 msgstr "No hubo resultados, pruebe con otra combinación de palabras."
 
-#: ../themes/cjorda/search.php:41
+#: ../themes/cjorda/search.php:43
 msgid "Thanks."
 msgstr "Gracias."
 

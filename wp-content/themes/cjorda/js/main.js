@@ -1,3 +1,14 @@
+/* OCULTAR PRELOADER */
+
+rotate = 1;
+
+function hide_preloader() {
+	// To stop the preloader 
+	rotate = 0; 
+	// To apply Fade Out Effect to the Preloader 
+	$("#preloader").fadeOut(1000);
+	}
+
 
 /* INICIALIZAR CAROUSEL */
 
