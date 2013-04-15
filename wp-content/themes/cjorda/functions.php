@@ -4,6 +4,8 @@
  * @subpackage CJorda
  * @since Carmen Jorda
  */
+ 
+ load_theme_textdomain('cjorda');
 
 function estilos(){
     ?>
@@ -117,7 +119,7 @@ function get_buscador() {
 ?>
 	<form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
 	    <img src="<?php bloginfo("template_url");?>/img/lupa.png">
-	    <input type="text" placeholder="BUSCAR.." class="inp_buscar" value="" name="s" id="s" />
+	    <?php $idioma = get_bloginfo('language');	?><input type="text" placeholder="<?php if ($idioma == 'es-ES') { ?>BUSCAR...<?php } else { ?>SEARCH...<?php } ?>" class="inp_buscar" value="" name="s" id="s" />
     </form><?
 }
 
@@ -145,5 +147,7 @@ function compartir(){
 
 <?php
 }
+
+
 
 ?>

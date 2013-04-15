@@ -25,7 +25,9 @@
 						  </div>
 						</a>
 						<div class="contenidonoticia">
-    						<div class="fecha_noticia"><?php the_date('d \D\E\ F \D\E\ Y', '<p style="text-transform: uppercase">', '</p>'); ?></div>
+    						<div class="fecha_noticia">
+    						<?php $idioma = get_bloginfo('language'); if ($idioma == 'es-ES') { the_date('d \D\E\ F \D\E\ Y', '<p style="text-transform: uppercase">', '</p>'); } else { the_date('F\.d\.Y', '<p style="text-transform: uppercase">', '</p>'); } ?>
+    						<?php the_date('d \D\E\ F \D\E\ Y', '<p style="text-transform: uppercase">', '</p>'); ?></div>
 						  <a href="<?php the_permalink();?>"><div class="titulo_noticia"><p><?php the_title();?></p></div></a>
 						  <a href="<?php the_permalink();?>"><div class="cuerpo_entrada"><?php the_excerpt();?></div></a>
 							

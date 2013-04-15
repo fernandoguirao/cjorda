@@ -55,7 +55,7 @@
 	        	<a href="<?php echo $link_slide[0];?>" class="btn_leer_mas">
 		        	<div class="lbl_leer_mas">
 		        		<span>
-		        			LEER MÁS
+		        			<?php _e("READ MORE", "cjorda"); ?>
 		        		</span>
 		        	</div>
 		        	<div class="lbl_plus">
@@ -79,7 +79,7 @@
 	        	<a href="<?php echo $link_slide[1];?>" class="btn_leer_mas">
 		        	<div class="lbl_leer_mas">
 		        		<span>
-		        			LEER MÁS
+		        			<?php _e("READ MORE", "cjorda"); ?>
 		        		</span>
 		        	</div>
 		        	<div class="lbl_plus">
@@ -103,7 +103,7 @@
 	        	<a href="<?php echo $link_slide[2];?>" class="btn_leer_mas">
 		        	<div class="lbl_leer_mas">
 		        		<span>
-		        			LEER MÁS
+		        			<?php _e("READ MORE", "cjorda"); ?>
 		        		</span>
 		        	</div>
 		        	<div class="lbl_plus">
@@ -127,7 +127,7 @@
 	        	<a href="<?php echo $link_slide[3];?>" class="btn_leer_mas">
 		        	<div class="lbl_leer_mas">
 		        		<span>
-		        			LEER MÁS
+		        			<?php _e("READ MORE", "cjorda"); ?>
 		        		</span>
 		        	</div>
 		        	<div class="lbl_plus">

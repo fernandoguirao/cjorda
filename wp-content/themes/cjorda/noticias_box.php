@@ -14,7 +14,7 @@
 				<div class="mascar" style="overflow:hidden;width:80px;height:62px;float:left;float:left; margin-right:10px;">
 					<img src="<?php the_field("imagen");?>" style="margin-top:5px;min-width:80px;min-height:40px;">
 				</div>
-				<h1><?php echo get_the_date('d\.m\.Y'); ?></h1>
+				<h1><?php $idioma = get_bloginfo('language'); if ($idioma == 'es-ES') { echo get_the_date('d\.m\.Y'); } else { echo get_the_date('m\.d\.Y'); } ?></h1>
 				<p><?php the_title()?></p>
 			</div>
 			</a>

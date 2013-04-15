@@ -5,6 +5,8 @@ $events = eo_get_events(array(
        'showpastevents'=>false,//Will be deprecated, but set it to true to play it safe. 
   ));
   
+$idioma = get_bloginfo('language');	
+		
 ?>
 
 <?php if($events): ?>
@@ -16,7 +18,7 @@ $events = eo_get_events(array(
 			$hora_evento=eo_format_date($event->StartTime, 'G');
 			$minuto_evento=eo_format_date($event->StartTime, 'i');
 		?>
-		<div class="contenedor_crono">
+		<div class="contenedor_crono" <?php if ($idioma == 'es-ES') { ?><?php } else { ?>style="background-image:url('<?php bloginfo('template_url'); ?>/img/crono-eng.png');"<?php } ?>> 
 		
 			<div id="cronoizq">
 				<a href="http://instagram.com/carmenjorda#" class="gp3"><img src="<?php bloginfo("template_url");?>/img/gp3.png" alt=""></a>

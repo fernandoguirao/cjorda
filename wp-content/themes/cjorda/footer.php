@@ -5,13 +5,13 @@
 			<div class="footer">
 			     <div id="foot-izq">
     				<div class="menu_footer hidden-phone">
-    					<a href="<?php bloginfo("url");?>" class="home">HOME</a>
-    					<a href="<?php bloginfo("url");?>/calendario" class="calendario">CALENDARIO</a>
-    					<a href="<?php bloginfo("url");?>/galeria" class="galeria">GALERIA</a>
+    					<a href="<?php bloginfo("url");?>" class="home"><?php _e("HOME", "cjorda"); ?></a>
+    					<a href="<?php bloginfo("url");?>/calendario" class="calendario"><?php _e("CALENDAR", "cjorda"); ?></a>
+    					<a href="<?php bloginfo("url");?>/galeria" class="galeria"><?php _e("GALLERY", "cjorda"); ?></a>
     					
-    					<a href="<?php bloginfo("url");?>/about" class="about-me">ABOUT ME</a>
-    					<a href="<?php bloginfo("url");?>/contacto" class="contacto">CONTACTO</a>
-    					<a href="<?php bloginfo("url");?>/partners" class="partners">PARTNERS</a>
+    					<a href="<?php bloginfo("url");?>/about" class="about-me"><?php _e("ABOUT ME", "cjorda"); ?></a>
+    					<a href="<?php bloginfo("url");?>/contacto" class="contacto"><?php _e("CONTACT", "cjorda"); ?></a>
+    					<a href="<?php bloginfo("url");?>/partners" class="partners"><?php _e("PARTNERS", "cjorda"); ?></a>
     				</div>
     				<div class="social_footer">
         				<a href="https://www.facebook.com/carmenjordaofficial">
@@ -25,11 +25,11 @@
         				</a>
     				</div>
     				<div class="copyright">
-    					©Carmen Jordá 2013 | <a href="">Aviso legal</a> | <a href="<?php bloginfo("url");?>/en">English version</a>
+    					©Carmen Jordá 2013 | <a href=""><?php _e("Legal terms", "cjorda"); ?></a> | <a href="http://carmenjorda.com/<?php $idioma = get_bloginfo('language'); if ($idioma == 'es-ES') { ?>en">English version<?php } else { ?>es">Versión española<?php } ?></a>
     				</div>
 				</div>
 				<div class="patrocinadores_footer visible-desktop">
-					Patrocinadores
+					<?php _e("PARTNERS", "cjorda"); ?>
 					<div class="patrocinador_footer">
 						<img src="<?php bloginfo("template_url");?>/img/patrocinadores.png">
 					</div>
