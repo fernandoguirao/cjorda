@@ -3,7 +3,7 @@
   Plugin Name: YouTube
   Plugin URI: http://www.embedplus.com
   Description: YouTube embed plugin with basic features and convenient defaults. Upgrade now to add view tracking and access to your very own analytics dashboard.
-  Version: 2.1
+  Version: 2.2
   Author: EmbedPlus Team
   Author URI: http://www.embedplus.com
  */
@@ -31,7 +31,8 @@
 
 class YouTubePrefs
 {
-    public static $version = '2.1';
+
+    public static $version = '2.2';
     public static $opt_version = 'version';
     public static $optembedwidth = null;
     public static $optembedheight = null;
@@ -70,7 +71,7 @@ class YouTubePrefs
         {
             update_option('embed_autourls', 1);
         }
-        
+
         self::$alloptions = get_option(self::$opt_alloptions);
         if (self::$alloptions == false || version_compare(self::$alloptions[self::$opt_version], self::$version, '<'))
         {
@@ -235,7 +236,7 @@ class YouTubePrefs
         {
             
         }
-        $finalsrc = 'enablejsapi=1&';// . $origin;
+        $finalsrc = 'enablejsapi=1&'; // . $origin;
 
         if (count($finalparams) > 1)
         {
@@ -435,12 +436,16 @@ class YouTubePrefs
         echo "<h2>" . '<img src="' . plugins_url('images/youtubeicon16.png', __FILE__) . '" /> ' . __('YouTube Preferences') . "</h2>";
 
         echo '<em>Hear about major upcoming announcements and feature updates by <a target="_blank" href="http://eepurl.com/tpof9">signing up here</a>.</em>';
-        
+
         echo '<a style="display: block; padding-top: 10px; text-decoration: none;" target="_blank" href="http://www.embedplus.com/dashboard/wordpress-video-analytics-seo.aspx"><img src="' . plugins_url('images/clickdashboard.png', __FILE__) . '" /></a>';
-        
+
         // settings form
         ?>
-            
+
+        <p>
+            Need support?  Email us at <?php echo antispambot('team@embedplus.com') ?>.  Due to the number of feature requests we get, priority will be give to users currently subscribing to one of our available <a href="https://www.embedplus.com/dashboard/easy-video-analytics-seo.aspx" target="_blank">analytics options &raquo;</a>.
+        </p>
+
         <style type="text/css">
             #ytform p { line-height: 20px; }
             #ytform ul li {margin-left: 30px; list-style: disc outside none;}
